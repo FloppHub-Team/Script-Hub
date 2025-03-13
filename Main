@@ -1,7 +1,6 @@
-local part1 = "https://"
-local part2 = "shorter."
-local part3 = "me/"
-local part4 = "BanHammerGoat"
+local part1 = "https%3A%2F%2F"
+local part2 = "shorter.me%2F"
+local part3 = "BanHammerGoat"
 
 local fullURL = part1 .. part2 .. part3 .. part4
 
