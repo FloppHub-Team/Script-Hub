@@ -181,7 +181,7 @@ print("⚙️ --Close Console--")
 playSound("rbxassetid://9120299810")
 task.wait(1)
 playSound("rbxassetid://4499400560")
-task.wait(2)
+task.wait(1)
 playSound("rbxassetid://7108607217")
 
 closeConsole()
