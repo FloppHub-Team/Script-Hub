@@ -20,12 +20,6 @@ end
 
 openConsole()
 
-pcall(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/hm5650/PrintLoadRes/refs/heads/main/PrintLoadRes", true))()
-    playSound("rbxassetid://9120299810")
-    task.wait()
-end)
-
 print(" ---Resources---")
 playSound("rbxassetid://9120299810")
 task.wait()
@@ -143,7 +137,7 @@ task.wait(0.4)
 print("✅ Minimise Or Close")
 playSound("rbxassetid://9120299810")
 task.wait(0.2)
-print("✅ Text Label (PartControllerRemote (v0.7))")
+print("❌ Gay User")
 playSound("rbxassetid://9120299810")
 task.wait(0.1)
 print("✅ Ui Corners, Outline Image buttons And ImageLabel")
