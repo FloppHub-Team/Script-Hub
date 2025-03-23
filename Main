@@ -20,6 +20,11 @@ end
 
 openConsole()
 
+print("⚙️ --Open Console--")
+task.wait();print("📝 Made By FloppHub Team")
+task.wait()
+print("⚙️ PrintLoaderHasStarted")
+task.wait(0.5 -0 )
 print(" ---Resources---")
 playSound("rbxassetid://9120299810")
 task.wait()
