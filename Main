@@ -21,7 +21,7 @@ end
 openConsole()
 
 print("⚙️ --Open Console--")
-task.wait();print("📝 Made By FloppHub Team")
+task.wait();print(" Made By FloppHub Team")
 task.wait()
 print("⚙️ PrintLoaderHasStarted")
 task.wait(0.5 -0 )
@@ -176,7 +176,7 @@ print("📝 Test The Script!")
 playSound("rbxassetid://9120299810")
 task.wait(2)
 
-for i = 1, 30 do
+for i = 1, 100 do
     print("FloppHub Team On The Top")
     playSound("rbxassetid://9120299810")
     task.wait(0)
