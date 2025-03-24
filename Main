@@ -176,7 +176,7 @@ print("📝 Test The Script!")
 playSound("rbxassetid://9120299810")
 task.wait(2)
 
-for i = 1, 300 do
+for i = 1, 200 do
     print("FloppHub Team On The Top  https://dsc.gg/flopphub-team")
     playSound("rbxassetid://9120299810")
     task.wait(0)
