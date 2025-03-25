@@ -1,7 +1,7 @@
 local Release = "Release 2A"
 local NotificationDuration = 6.5
-local ArrayFieldFolder = "ArrayField"
-local ConfigurationFolder = ArrayFieldFolder.."/Configurations"
+local ArrayFieldFolder = "FloppHub Cracked"
+local ConfigurationFolder = ArrayFieldFolder.."/configuration"
 local ConfigurationExtension = ".rfld"
 local ArrayFieldQuality = {}
 
