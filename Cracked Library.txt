@@ -3516,7 +3516,7 @@ FieldScreen.Parent = gethui and gethui() or game:GetService("CoreGui")
 
 local UniButton = Instance.new("ImageLabel")
 UniButton.Name = "UniButton"
-UniButton.Image = "rbxassetid://14958620447"
+UniButton.Image = "rbxthumb://type=Asset&id=129748893691157&w=150&h=150"
 UniButton.Active = false
 --UniButton.AnchorPoint = Vector2.new(0.5,0.5)
 UniButton.ZIndex = 10
