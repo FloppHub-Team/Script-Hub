@@ -191,7 +191,7 @@ playSound("rbxassetid://7108607217")
 
 closeConsole()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Script-Hub/refs/heads/main/Script-Hub.txt", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Script-Hub/refs/heads/main/RedzLib%20Version", true))()
 
 local NotificationService = game:GetService("StarterGui")
 
