@@ -199,5 +199,4 @@ NotificationService:SetCore("SendNotification", {
     Title = "Script Hub By FloppHub Team  Cracked UI",
     Text = "🔥https://dsc.gg/flopphub-team🔥",
     Duration = 10
-    Icon = "rbxthumb://type=Asset&id=112586798808707&w=150&h=150"
 })
