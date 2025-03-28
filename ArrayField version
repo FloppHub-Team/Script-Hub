@@ -313,7 +313,7 @@ Tab3:CreateButton({
         Description = generateDescription("CHAT BYPASS")
     },
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/KAWAII-BYPASS/main/kawaii-bypass",true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AnnaRoblox/AnnaBypasser/refs/heads/main/AnnaBypasser.lua",true))()
     end
 })
 
@@ -323,7 +323,17 @@ Tab3:CreateButton({
         Description = generateDescription("CHAT BYPASS V2")
     },
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/AnnaRoblox/AnnaBypasser/refs/heads/main/AnnaBypasser.lua",true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/twig76/ayra/refs/heads/main/ayras",true))()
+    end
+})
+
+Tab3:CreateButton({
+    Name = "CHAT BYPASS V3",
+    Info = {
+        Description = generateDescription("CHAT BYPASS V3")
+    },
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Synergy-Networks/products/main/BetterBypasser/loader.lua",true))()
     end
 })
 
