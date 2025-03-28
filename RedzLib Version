@@ -254,7 +254,7 @@ Tab3:AddButton({
     Name = "CHAT BYPASS",
     Description = generateDescription("CHAT BYPASS"),
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/KAWAII-BYPASS/main/kawaii-bypass",true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AnnaRoblox/AnnaBypasser/refs/heads/main/AnnaBypasser.lua",true))()
     end
 })
 
@@ -262,7 +262,15 @@ Tab3:AddButton({
     Name = "CHAT BYPASS V2",
     Description = generateDescription("CHAT BYPASS V2"),
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/AnnaRoblox/AnnaBypasser/refs/heads/main/AnnaBypasser.lua",true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/twig76/ayra/refs/heads/main/ayras",true))()
+    end
+})
+
+Tab3:AddButton({
+    Name = "CHAT BYPASS V3",
+    Description = generateDescription("CHAT BYPASS V3"),
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Synergy-Networks/products/main/BetterBypasser/loader.lua",true))()
     end
 })
 
@@ -483,13 +491,15 @@ local scripts = {
     ["FE EMOTE"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-fe-emote-17192"))()',
     ["SHIFTLOCK"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Mobile-Shiftlock-V2-18053"))()',
     ["SHIFTLOCK NO FIJABLE"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Shiftlock-22314"))()',
-    ["CHAT BYPASS"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/KAWAII-BYPASS/main/kawaii-bypass",true))()',
-    ["CHAT BYPASS V2"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/AnnaRoblox/AnnaBypasser/refs/heads/main/AnnaBypasser.lua",true))()',
+    ["CHAT BYPASS"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/AnnaRoblox/AnnaBypasser/refs/heads/main/AnnaBypasser.lua",true))()',
     ["AURA NATURAL DISASTER"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/KAWAII-AURA/main/kawaii_aura.lua", true))()',
     ["JUMP BUTTON"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Jump-Button/refs/heads/main/Script",true))()',
     ["FLY JUMP"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Fly-Jump/refs/heads/main/Script",true))()',
     ["DEAD RAILS 1"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/badass1ia/Merciful/refs/heads/main/Absurdity111"))()',
     ["DEAD RAILS 2"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/Markklol/aw/refs/heads/main/Protected/DRailsv2.lua"))()',
+    ["CHAT BYPASS V3"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/Synergy-Networks/products/main/BetterBypasser/loader.lua",true))()',
+    ["CHAT BYPASS V2"] = '
+loadstring(game:HttpGet("https://raw.githubusercontent.com/twig76/ayra/refs/heads/main/ayras",true))()',
 }
     
 for title, script in pairs(scripts) do
