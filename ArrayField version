@@ -353,7 +353,7 @@ local character = player.Character or player.CharacterAdded:Wait()
 local humanoid = character:WaitForChild("Humanoid")
 
 local speedEnabled = false
-local defaultSpeed = 16
+local defaultSpeed = 30
 local maxSpeed = 1000
 local jumpSlider
 local defaultJumpPower = 50
@@ -380,7 +380,7 @@ Tab4:CreateToggle({
 Tab4:CreateSlider({
     Name = "SPEED",
     Range = {defaultSpeed, maxSpeed},
-    Increment = 1,
+    Increment = 10,
     Suffix = " Speed",
     CurrentValue = defaultSpeed,
     Flag = "SpeedSlider",
