@@ -320,7 +320,7 @@ Tab4:AddToggle({
                     })
                 end
             else
-                humanoid.WalkSpeed = 16
+                humanoid.WalkSpeed = 30
                 if speedSlider then
                     speedSlider:Destroy()
                     speedSlider = nil
@@ -350,10 +350,10 @@ local Toggle1 = Tab4:AddToggle({
 
 Tab4:AddSlider({
   Name = "🏃┃MODIFICAR VELOCIDAD",
-  Min = 15,
+  Min = 1,
   Max = 1000,
-  Increase = 1,
-  Default = 15,
+  Increase = 10,
+  Default = 30,
   Callback = function(Value)
   game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
   end
