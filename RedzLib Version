@@ -275,6 +275,14 @@ Tab3:AddButton({
 })
 
 Tab3:AddButton({
+    Name = "CHAT BYPASS V4",
+    Description = generateDescription("CHAT BYPASS V4"),
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Chat-Bypass/refs/heads/main/FH%20Bypass.txt", true))()
+    end
+})
+
+Tab3:AddButton({
     Name = "AURA NATURAL DISASTER",
     Description = generateDescription("AURA"),
     Callback = function()
@@ -499,6 +507,7 @@ local scripts = {
     ["DEAD RAILS 2"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/Markklol/aw/refs/heads/main/Protected/DRailsv2.lua"))()',
     ["CHAT BYPASS V3"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/Synergy-Networks/products/main/BetterBypasser/loader.lua",true))()',
     ["CHAT BYPASS V2"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/twig76/ayra/refs/heads/main/ayras",true))()',
+    ["CHAT BYPASS V4"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Chat-Bypass/refs/heads/main/FH%20Bypass.txt", true))()',
 }
     
 for title, script in pairs(scripts) do
