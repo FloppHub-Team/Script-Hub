@@ -19,19 +19,8 @@ Tab0:AddButton({
     Name = "CHANGE UI",
     Description = "SWITCH TO UI 2.0",
     Callback = function()
-        local settings = { LoadingScreen = true }
-
-local scriptContent = game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Script-Hub/refs/heads/main/Main%202.0", true)
-
-if not settings.LoadingScreen then
-    scriptContent = scriptContent:gsub(
-        "local StarterGui%s-=%s-game:GetService%(\"StarterGui\"%)[^}]+closeConsole%(%)",
-        ""
-    )
-end
-
-loadstring(scriptContent)()
-    end
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Script-Hub/refs/heads/main/Rayfield%20version", true))()
+   end
 })
 
 local function generateDescription(scriptName)
