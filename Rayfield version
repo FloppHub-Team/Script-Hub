@@ -31,18 +31,7 @@ Tab0:CreateButton({
 Tab0:CreateButton({
     Name = "CHANGE UI (SWITCH TO UI 1.0)",
     Callback = function()
-        local settings = { LoadingScreen = true }
-
-local scriptContent = game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Script-Hub/refs/heads/main/Main", true)
-
-if not settings.LoadingScreen then
-    scriptContent = scriptContent:gsub(
-        "local StarterGui%s-=%s-game:GetService%(\"StarterGui\"%)[^}]+closeConsole%(%)",
-        ""
-    )
-end
-
-loadstring(scriptContent)()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Script-Hub/refs/heads/main/RedzLib%20Version", true))()
     end
 })
 
