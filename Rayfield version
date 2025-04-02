@@ -1,4 +1,4 @@
-local ArrayField = loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/UIs/refs/heads/main/RayField%20Version%20Cracked"))()
+local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/UIs/refs/heads/main/RayField%20Version%20Cracked"))()
 
 local Window = ArrayField:CreateWindow({
     Name = "SCRIPTS INSANOS ",
