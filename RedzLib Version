@@ -21,7 +21,7 @@ Tab0:AddButton({
     Callback = function()
         local settings = { LoadingScreen = true }
 
-local scriptContent = game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Script-Hub/refs/heads/main/ArrayField%20version", true)
+local scriptContent = game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Script-Hub/refs/heads/main/Main%202.0", true)
 
 if not settings.LoadingScreen then
     scriptContent = scriptContent:gsub(
