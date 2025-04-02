@@ -338,6 +338,16 @@ Tab3:CreateButton({
 })
 
 Tab3:CreateButton({
+    Name = "CHAT BYPASS V4",
+    Info = {
+        Description = generateDescription("CHAT BYPASS V4")
+    },
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Chat-Bypass/refs/heads/main/FH%20Bypass.txt", true))()
+    end
+})
+
+Tab3:CreateButton({
     Name = "AURA NATURAL DISASTER",
     Info = {
         Description = generateDescription("AURA")
