@@ -20,7 +20,7 @@ local function generateDescription(scriptName)
     return "EXECUTE " .. scriptName
 end
 
-local Tab0 = Window:CreateTab("DISCORD SERVER", rbxthumb://type=Asset&id=112586798808707&w=150&h=150)
+local Tab0 = Window:CreateTab("DISCORD SERVER", 4483362458)
 Tab0:CreateButton({
     Name = "FloppHub Team  (Click To Copy The Invitation Link)",
     Callback = function()
