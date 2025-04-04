@@ -77,7 +77,7 @@ Tab1:AddButton({
         
         task.spawn(function()
             loadstring(game:HttpGet("https://rawscripts.net/raw/Ragdoll-Engine-BEST-SCRIPT-WORKING-SystemBroken-7544"))()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/ySixxNz/Natural-Desastre/SIX-MENU/SIX-HUB-NATURAL-DESASTRE"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ySixxNz/Natural-Desastre/refs/heads/Main/ES%20Language"))()
         end)
     end
 })
@@ -94,7 +94,7 @@ Tab2:AddButton({
 Tab2:AddButton({
     Name = "SIX HUB",
     Description = generateDescription("SIX HUB"),
-    Callback = function() loadstring(game:HttpGet"https://raw.githubusercontent.com/ySixxNz/Natural-Desastre/SIX-MENU/SIX-HUB-NATURAL-DESASTRE")()
+    Callback = function() loadstring(game:HttpGet"https://raw.githubusercontent.com/ySixxNz/Natural-Desastre/refs/heads/Main/ES%20Language")()
     end
 })
 
