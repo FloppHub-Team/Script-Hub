@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/UIs/refs/heads/main/RayField%20Version%20Cracked"))()
 
 local Window = Rayfield:CreateWindow({
-    Name = "SCRIPTS INSANOS ",
+    Name = "┃SCRIPTS INSANOS",
     LoadingTitle = "FloppHub Team",
     LoadingSubtitle = "By RTZ_ANDRUUUX ",
     ConfigurationSaving = {
