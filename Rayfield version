@@ -267,6 +267,16 @@ Tab3:CreateButton({
 })
 
 Tab3:CreateButton({
+    Name = "FE EMOTE 2.0",
+    Info = {
+        Description = generateDescription("FE EMOTE 2.0")
+    },
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/AllEmotes"))()
+    end
+})
+
+Tab3:CreateButton({
     Name = "SHIFTLOCK",
     Info = {
         Description = generateDescription("SHIFTLOCK")
