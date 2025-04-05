@@ -216,6 +216,14 @@ Tab3:AddButton({
 })
 
 Tab3:AddButton({
+    Name = "FE EMOTE 2.0",
+    Description = generateDescription("FE EMOTE 2.0"),
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/AllEmotes"))()
+    end
+})
+
+Tab3:AddButton({
     Name = "SHIFTLOCK",
     Description = generateDescription("SHIFTLOCK"),
     Callback = function()
@@ -486,6 +494,7 @@ local scripts = {
     ["FLY"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()',
     ["VFLY"] = 'loadstring(game:HttpGet("https://pastebin.com/raw/ZgKQ0TEA"))()',
     ["FE EMOTE"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-fe-emote-17192"))()',
+    ["FE EMOTE 2.0"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/AllEmotes"))()',
     ["SHIFTLOCK"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Mobile-Shiftlock-V2-18053"))()',
     ["SHIFTLOCK NO FIJABLE"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Shiftlock-22314"))()',
     ["CHAT BYPASS"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/AnnaRoblox/AnnaBypasser/refs/heads/main/AnnaBypasser.lua",true))()',
