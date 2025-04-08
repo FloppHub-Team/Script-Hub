@@ -20,7 +20,7 @@ local function generateDescription(scriptName)
     return "EXECUTE " .. scriptName
 end
 
-local Tab0 = Window:CreateTab("DISCORD SERVER", 4483362458)
+local Tab0 = Window:CreateTab("┃DISCORD SERVER")
 Tab0:CreateButton({
     Name = "FloppHub Team  (Click To Copy The Invitation Link)",
     Callback = function()
@@ -35,7 +35,7 @@ Tab0:CreateButton({
     end
 })
 
-local Tab1 = Window:CreateTab("SCRIPTS FAVORITOS", 4483362458)
+local Tab1 = Window:CreateTab("🌟┃SCRIPTS FAVORITOS")
 Tab1:CreateButton({
     Name = "REDZ HUB",
     Info = {
@@ -99,7 +99,7 @@ Tab1:CreateButton({
     end
 })
 
-local Tab2 = Window:CreateTab("SCRIPTS", 4483362458)
+local Tab2 = Window:CreateTab("🔥┃SCRIPTS")
 Tab2:CreateButton({
     Name = "ZAP HUB",
     Info = {
@@ -244,7 +244,7 @@ Tab2:CreateButton({
     end
 })
 
-local Tab3 = Window:CreateTab("OTROS SCRIPTS", 4483362458)
+local Tab3 = Window:CreateTab("👽┃OTROS SCRIPTS")
 Tab3:CreateButton({
     Name = "FLY",
     Info = {
@@ -366,7 +366,7 @@ Tab3:CreateButton({
     end
 })
 
-local Tab4 = Window:CreateTab("MISC", 4483362458)
+local Tab4 = Window:CreateTab("⚙️┃MISC")
 local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local humanoid = character:WaitForChild("Humanoid")
