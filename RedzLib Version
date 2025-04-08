@@ -189,6 +189,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Markklol/aw/refs/head
     end
 })
 
+Tab2:AddButton({
+    Name = "DEAD RAILS 2.0",
+    Description = generateDescription("DEAD RAILS 2.0"),
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/DeadRails"))()
+    end
+})
+
 local Tab3 = Window:MakeTab({"👽┃OTROS SCRIPTS"})
 
 Tab3:AddButton({
@@ -503,6 +511,7 @@ local scripts = {
     ["FLY JUMP"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Fly-Jump/refs/heads/main/Script",true))()',
     ["DEAD RAILS 1"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/badass1ia/Merciful/refs/heads/main/Absurdity111"))()',
     ["DEAD RAILS 2"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/Markklol/aw/refs/heads/main/Protected/DRailsv2.lua"))()',
+    ["DEAD RAILS 3"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/DeadRails"))()',
     ["CHAT BYPASS V3"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/Synergy-Networks/products/main/BetterBypasser/loader.lua",true))()',
     ["CHAT BYPASS V2"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/twig76/ayra/refs/heads/main/ayras",true))()',
     ["CHAT BYPASS V4"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Chat-Bypass/refs/heads/main/FH%20Bypass.txt", true))()',
