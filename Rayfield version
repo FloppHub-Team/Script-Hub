@@ -234,6 +234,16 @@ Tab2:CreateButton({
     end
 })
 
+Tab2:CreateButton({
+    Name = "DEAD RAILS 2.0",
+    Info = {
+        Description = generateDescription("DEAD RAILS 2.0")
+    },
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/DeadRails"))()
+    end
+})
+
 local Tab3 = Window:CreateTab("OTROS SCRIPTS", 4483362458)
 Tab3:CreateButton({
     Name = "FLY",
