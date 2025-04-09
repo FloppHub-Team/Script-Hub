@@ -1,3 +1,11 @@
+local NotificationService = game:GetService("StarterGui")
+
+NotificationService:SetCore("SendNotification", {
+    Title = "Script Hub By FloppHub Team  Cracked UI",
+    Text = "🔥https://dsc.gg/flopphub-team🔥",
+    Duration = 10
+})
+
 local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/UIs/refs/heads/main/RedzLib%20Cracked"))()
 
 local Window = redzlib:MakeWindow({
