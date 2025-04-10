@@ -192,8 +192,8 @@ Tab2:AddButton({
     Name = "DEAD RAILS",
     Description = generateDescription("DEAD RAILS"),
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/DeadRails"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Markklol/aw/refs/heads/main/Protected/DRailsv2.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/DeadRails"))()
     end
 })
 
@@ -509,7 +509,7 @@ local scripts = {
     ["AURA NATURAL DISASTER"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/KAWAII-AURA/main/kawaii_aura.lua", true))()',
     ["JUMP BUTTON"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Jump-Button/refs/heads/main/Script",true))()',
     ["FLY JUMP"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Fly-Jump/refs/heads/main/Script",true))()',
-    ["DEAD RAILS 1"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/badass1ia/Merciful/refs/heads/main/Absurdity111"))()',
+    ["DEAD RAILS 1"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/Markklol/aw/refs/heads/main/Protected/DRailsv2.lua"))()',
     ["DEAD RAILS 2"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/DeadRails"))()',
     ["CHAT BYPASS V3"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/Synergy-Networks/products/main/BetterBypasser/loader.lua",true))()',
     ["CHAT BYPASS V2"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/twig76/ayra/refs/heads/main/ayras",true))()',
