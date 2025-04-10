@@ -237,7 +237,7 @@ Tab2:CreateButton({
         Description = generateDescription("DEAD RAILS")
     },
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/badass1ia/Merciful/refs/heads/main/Absurdity111"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/DeadRails"))()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Markklol/aw/refs/heads/main/Protected/DRailsv2.lua"))()
     end
 })
