@@ -194,4 +194,8 @@ closeConsole()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Script-Hub/refs/heads/main/Rayfield%20version", true))()
 
 local NotificationService = game:GetService("StarterGui")
+NotificationService:SetCore("SendNotification", {
+    Title = "Script Hub By FloppHub Team  Cracked UI",
+    Text = "🔥https://dsc.gg/flopphub-team🔥",
+    Duration = 10
 })
