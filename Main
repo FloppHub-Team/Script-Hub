@@ -191,7 +191,7 @@ playSound("rbxassetid://7108607217")
 
 closeConsole()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Script-Hub/refs/heads/main/RedzLib%20Version", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Discord-Invite-2.0/refs/heads/main/DiscordUI.txt"))()
 
 local NotificationService = game:GetService("StarterGui")
 NotificationService:SetCore("SendNotification", {
