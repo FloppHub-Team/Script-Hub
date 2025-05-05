@@ -81,12 +81,12 @@ Tab1:CreateButton({
 })
 
 Tab1:CreateButton({
-    Name = "HOHO HUB",
+    Name = "DONATION BLOX",
     Info = {
-        Description = generateDescription("HOHO HUB")
+        Description = generateDescription("DONATION BLOX")
     },
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Donation%20Blox%20Script.txt"))()
     end
 })
 
@@ -115,6 +115,16 @@ Tab2:CreateButton({
     },
     Callback = function() 
         loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
+    end
+})
+
+Tab2:CreateButton({
+    Name = "HOHO HUB",
+    Info = {
+        Description = generateDescription("HOHO HUB")
+    },
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
     end
 })
 
@@ -198,6 +208,16 @@ Tab2:CreateButton({
     },
     Callback = function() 
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
+    end
+})
+
+Tab2:CreateButton({
+    Name = "CHICKEN",
+    Info = {
+        Description = generateDescription("CHICKEN")
+    },
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Chicken%20Script.txt"))()
     end
 })
 
