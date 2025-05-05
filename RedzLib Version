@@ -68,10 +68,10 @@ Tab1:AddButton({
 })
 
 Tab1:AddButton({
-    Name = "HOHO HUB",
-    Description = generateDescription("HOHO HUB"),
+    Name = "DONATION BLOX",
+    Description = generateDescription("DONATION BLOX"),
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Donation%20Blox%20Script.txt"))()
     end
 })
 
@@ -96,6 +96,14 @@ Tab2:AddButton({
     Name = "ZAP HUB",
     Description = generateDescription("ZAP HUB"),
     Callback = function() loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
+    end
+})
+
+Tab2:AddButton({
+    Name = "HOHO HUB",
+    Description = generateDescription("HOHO HUB"),
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
     end
 })
 
@@ -160,7 +168,16 @@ Tab2:AddButton({
 Tab2:AddButton({
     Name = "MM2",
     Description = generateDescription("MM2"),
-    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
+    Callback = function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
+    end
+})
+
+Tab2:AddButton({
+    Name = "CHICKEN",
+    Description = generateDescription("CHICKEN"),
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Chicken%20Script.txt"))()
     end
 })
 
@@ -514,6 +531,8 @@ local scripts = {
     ["CHAT BYPASS V3"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/Synergy-Networks/products/main/BetterBypasser/loader.lua",true))()',
     ["CHAT BYPASS V2"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/twig76/ayra/refs/heads/main/ayras",true))()',
     ["CHAT BYPASS V4"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Chat-Bypass/refs/heads/main/FH%20Bypass.txt", true))()',
+    ["DONATION BLOX"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Donation%20Blox%20Script.txt"))()',
+    ["CHICKEN"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Chicken%20Script.txt"))()',
 }
     
 for title, script in pairs(scripts) do
