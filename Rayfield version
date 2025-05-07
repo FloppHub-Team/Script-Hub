@@ -139,6 +139,16 @@ Tab2:CreateButton({
 })
 
 Tab2:CreateButton({
+    Name = "KATER HUB",
+    Info = {
+        Description = generateDescription("KATER HUB")
+    },
+    Callback = function() 
+        loadstring(game:HttpGet("https://katerhub-inc.github.io/KaterHub/main.lua"))()
+    end
+})
+
+Tab2:CreateButton({
     Name = "RAGDOLL",
     Info = {
         Description = generateDescription("RAGDOLL")
