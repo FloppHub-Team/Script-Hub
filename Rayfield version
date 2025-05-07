@@ -102,7 +102,7 @@ Tab1:CreateButton({
         
         task.spawn(function()
             loadstring(game:HttpGet("https://rawscripts.net/raw/Ragdoll-Engine-BEST-SCRIPT-WORKING-SystemBroken-7544"))()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/KaterHub-Inc/NaturalDisasterSurvival/refs/heads/main/main.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ySixxNz/Natural-Desastre/480c9ffeb9ed418d38f5a3ba621f4e8a798419d1/Natural-desastre-espanhol"))()
         end)
     end
 })
@@ -125,6 +125,16 @@ Tab2:CreateButton({
     },
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+    end
+})
+
+Tab2:CreateButton({
+    Name = "SIX HUB",
+    Info = {
+        Description = generateDescription("SIX HUB")
+    },
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ySixxNz/Natural-Desastre/480c9ffeb9ed418d38f5a3ba621f4e8a798419d1/Natural-desastre-espanhol"))()
     end
 })
 
