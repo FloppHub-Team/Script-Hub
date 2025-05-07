@@ -129,12 +129,12 @@ Tab2:CreateButton({
 })
 
 Tab2:CreateButton({
-    Name = "SIX HUB",
+    Name = "NDS HUB",
     Info = {
-        Description = generateDescription("SIX HUB")
+        Description = generateDescription("NDS HUB")
     },
     Callback = function() 
-        loadstring(game:HttpGet"https://raw.githubusercontent.com/ySixxNz/Natural-Desastre/refs/heads/Main/ES%20Language")()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/KaterHub-Inc/NaturalDisasterSurvival/refs/heads/main/main.lua"))()
     end
 })
 
