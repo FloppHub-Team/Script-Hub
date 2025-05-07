@@ -85,7 +85,7 @@ Tab1:AddButton({
         
         task.spawn(function()
             loadstring(game:HttpGet("https://rawscripts.net/raw/Ragdoll-Engine-BEST-SCRIPT-WORKING-SystemBroken-7544"))()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/ySixxNz/Natural-Desastre/refs/heads/Main/ES%20Language"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/KaterHub-Inc/NaturalDisasterSurvival/refs/heads/main/main.lua"))()
         end)
     end
 })
@@ -108,9 +108,16 @@ Tab2:AddButton({
 })
 
 Tab2:AddButton({
-    Name = "SIX HUB",
-    Description = generateDescription("SIX HUB"),
-    Callback = function() loadstring(game:HttpGet"https://raw.githubusercontent.com/ySixxNz/Natural-Desastre/refs/heads/Main/ES%20Language")()
+    Name = "NDS HUB",
+    Description = generateDescription("NDS HUB"),
+    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/KaterHub-Inc/NaturalDisasterSurvival/refs/heads/main/main.lua"))()
+    end
+})
+
+Tab2:AddButton({
+    Name = "KATER HUB",
+    Description = generateDescription("KATER HUB"),
+    Callback = function() loadstring(game:HttpGet("https://katerhub-inc.github.io/KaterHub/main.lua"))()
     end
 })
 
