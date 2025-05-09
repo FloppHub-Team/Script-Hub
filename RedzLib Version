@@ -239,7 +239,7 @@ Tab3:AddButton({
 })
 
 Tab3:AddButton({
-    Name = "Fly V2",
+    Name = "FLY V2",
     Description = generateDescription("Fly V2"),
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Fly-GUI-V1/refs/heads/main/Fly%20V2"))()
@@ -541,7 +541,7 @@ local scripts = {
     ["INFINITE YIELD"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Infinite-Yield_500"))()',
     ["HOP BOSS"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Teddy-Premium"))()',
     ["FLY"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Fly-GUI-V1/refs/heads/main/FlyGui%20FH%20Team"))()',
-    ["Fly V2"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Fly-GUI-V1/refs/heads/main/Fly%20V2"))()',
+    ["FLY V2"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Fly-GUI-V1/refs/heads/main/Fly%20V2"))()',
     ["VFLY"] = 'loadstring(game:HttpGet("https://pastebin.com/raw/ZgKQ0TEA"))()',
     ["FE EMOTE"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-fe-emote-17192"))()',
     ["FE EMOTE 2.0"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/AllEmotes"))()',
