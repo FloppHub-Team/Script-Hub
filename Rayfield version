@@ -295,6 +295,17 @@ Tab3:CreateButton({
 })
 
 Tab3:CreateButton({
+    Name = "Fly V2",
+    Info = {
+        Description = generateDescription("Fly V2")
+    },
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Fly-GUI-V1/refs/heads/main/Fly%20V2", true))()
+
+    end
+})
+
+Tab3:CreateButton({
     Name = "VFLY",
     Info = {
         Description = generateDescription("VFLY")
