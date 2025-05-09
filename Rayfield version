@@ -295,7 +295,7 @@ Tab3:CreateButton({
 })
 
 Tab3:CreateButton({
-    Name = "Fly V2",
+    Name = "FLY V2",
     Info = {
         Description = generateDescription("Fly V2")
     },
