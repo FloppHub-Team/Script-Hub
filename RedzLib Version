@@ -255,6 +255,14 @@ Tab3:AddButton({
 })
 
 Tab3:AddButton({
+    Name = "VFLY V2",
+    Description = generateDescription("VFLY V2"),
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Vfly%20OP"))()
+    end
+})
+
+Tab3:AddButton({
     Name = "FE EMOTE",
     Description = generateDescription("FE EMOTE"),
     Callback = function()
@@ -543,6 +551,7 @@ local scripts = {
     ["FLY"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Fly-GUI-V1/refs/heads/main/FlyGui%20FH%20Team"))()',
     ["FLY V2"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Fly-GUI-V1/refs/heads/main/Fly%20V2"))()',
     ["VFLY"] = 'loadstring(game:HttpGet("https://pastebin.com/raw/ZgKQ0TEA"))()',
+    ["VFLY V2"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Vfly%20OP"))()',
     ["FE EMOTE"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-fe-emote-17192"))()',
     ["FE EMOTE 2.0"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/AllEmotes"))()',
     ["SHIFTLOCK"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Mobile-Shiftlock-V2-18053"))()',
