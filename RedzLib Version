@@ -282,7 +282,7 @@ Tab3:AddButton({
     Name = "SHIFTLOCK",
     Description = generateDescription("SHIFTLOCK"),
     Callback = function()
-        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Mobile-Shiftlock-V2-18053"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Shiftlock%20FE"))()
     end
 })
 
@@ -554,7 +554,7 @@ local scripts = {
     ["VFLY V2"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Vfly%20OP"))()',
     ["FE EMOTE"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-fe-emote-17192"))()',
     ["FE EMOTE 2.0"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/AllEmotes"))()',
-    ["SHIFTLOCK"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Mobile-Shiftlock-V2-18053"))()',
+    ["SHIFTLOCK"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Shiftlock%20FE"))()',
     ["SHIFTLOCK NO FIJABLE"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Shiftlock-22314"))()',
     ["CHAT BYPASS"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/AnnaRoblox/AnnaBypasser/refs/heads/main/AnnaBypasser.lua",true))()',
     ["AURA NATURAL DISASTER"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/KAWAII-AURA/main/kawaii_aura.lua", true))()',
