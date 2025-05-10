@@ -351,7 +351,7 @@ Tab3:CreateButton({
         Description = generateDescription("SHIFTLOCK")
     },
     Callback = function()
-        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Mobile-Shiftlock-V2-18053"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Shiftlock%20FE"))()
     end
 })
 
