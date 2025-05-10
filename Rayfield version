@@ -295,9 +295,9 @@ Tab3:CreateButton({
 })
 
 Tab3:CreateButton({
-    Name = "FLY V2.0",
+    Name = "FLY V2",
     Info = {
-        Description = generateDescription("Fly V2.0")
+        Description = generateDescription("FLY V2")
     },
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Fly-GUI-V1/refs/heads/main/Fly%20V2", true))()
@@ -316,9 +316,9 @@ Tab3:CreateButton({
 })
 
 Tab3:CreateButton({
-    Name = "VFLY 2.0",
+    Name = "VFLY V2",
     Info = {
-        Description = generateDescription("VFLY 2.0")
+        Description = generateDescription("VFLY V2")
     },
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Vfly%20OP"))()
