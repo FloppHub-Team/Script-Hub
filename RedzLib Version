@@ -85,7 +85,7 @@ Tab1:AddButton({
         
         task.spawn(function()
             loadstring(game:HttpGet("https://rawscripts.net/raw/Ragdoll-Engine-BEST-SCRIPT-WORKING-SystemBroken-7544"))()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/ySixxNz/Natural-Desastre/480c9ffeb9ed418d38f5a3ba621f4e8a798419d1/Natural-desastre-espanhol"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ySixxNz/Natural-Desastre/226d3d545efb7b36d14c0a21b23c3a2889ff3dc2/ES%20Language"))()
         end)
     end
 })
@@ -527,7 +527,7 @@ local scripts = {
     ["W-AZURE"] = 'loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()',
     ["HOHO HUB"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()',
     ["ZAP HUB"] = 'loadstring(game:HttpGet("https://zaphub.xyz/Exec"))()',
-    ["SIX HUB"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/ySixxNz/Natural-Desastre/480c9ffeb9ed418d38f5a3ba621f4e8a798419d1/Natural-desastre-espanhol"))()',
+    ["SIX HUB"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/ySixxNz/Natural-Desastre/226d3d545efb7b36d14c0a21b23c3a2889ff3dc2/ES%20Language"))()',
     ["NDS HUB"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/KaterHub-Inc/NaturalDisasterSurvival/refs/heads/main/main.lua"))()',
     ["KATER HUB"] = 'loadstring(game:HttpGet("https://katerhub-inc.github.io/KaterHub/main.lua"))()',
     ["RAGDOLL"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Ragdoll-Engine-BEST-SCRIPT-WORKING-SystemBroken-7544"))()',
