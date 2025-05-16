@@ -110,8 +110,8 @@ Tab2:AddButton({
 Tab2:AddButton({
     Name = "SIX HUB",
     Description = generateDescription("SIX HUB"),
-    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/ySixxNz/Natural-Desastre/480c9ffeb9ed418d38f5a3ba621f4e8a798419d1/Natural-desastre-espanhol"))()
-    end
+    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/ySixxNz/Natural-Desastre/226d3d545efb7b36d14c0a21b23c3a2889ff3dc2/ES%20Language"))()
+      end
 })
 
 Tab2:AddButton({
