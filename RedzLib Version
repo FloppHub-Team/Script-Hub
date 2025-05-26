@@ -279,6 +279,14 @@ Tab3:AddButton({
 })
 
 Tab3:AddButton({
+    Name = "FE EMOTE 3.0",
+    Description = generateDescription("FE EMOTE 3.0"),
+    Callback = function()
+        loadstring(game:HttpGet("https://yarhm.mhi.im/scr?channel=afem", false))()
+    end
+})
+
+Tab3:AddButton({
     Name = "SHIFTLOCK",
     Description = generateDescription("SHIFTLOCK"),
     Callback = function()
@@ -554,6 +562,7 @@ local scripts = {
     ["VFLY V2"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Vfly%20OP"))()',
     ["FE EMOTE"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-fe-emote-17192"))()',
     ["FE EMOTE 2.0"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/AllEmotes"))()',
+    ["FE EMOTE 3.0"] = 'loadstring(game:HttpGet("https://yarhm.mhi.im/scr?channel=afem", false))()',
     ["SHIFTLOCK"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Shiftlock%20FE"))()',
     ["SHIFTLOCK NO FIJABLE"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Shiftlock-22314"))()',
     ["CHAT BYPASS"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/AnnaRoblox/AnnaBypasser/refs/heads/main/AnnaBypasser.lua",true))()',
