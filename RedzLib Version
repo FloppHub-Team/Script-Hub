@@ -41,12 +41,7 @@ Tab1:AddButton({
     Name = "REDZ HUB",
     Description = generateDescription("REDZ HUB"),
     Callback = function()
-    local Settings = {
-    JoinTeam = "Pirates"; -- Pirates / Marines
-    Translator = true;   -- true / false
-}
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))(Settings)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))()
     end
 })
 
@@ -539,12 +534,7 @@ local UnlimitedZoomToggle = Tab4:AddToggle({
 local Tab5 = Window:MakeTab({"📝┃COPY SCRIPTS"})
 
 local scripts = {
-    ["REDZ HUB"] = 'local Settings = {
-    JoinTeam = "Pirates"; -- Pirates / Marines
-    Translator = true;   -- true / false
-}
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))(Settings)',
+    ["REDZ HUB"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))()',
     ["W-AZURE"] = 'loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()',
     ["HOHO HUB"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()',
     ["ZAP HUB"] = 'loadstring(game:HttpGet("https://zaphub.xyz/Exec"))()',
