@@ -27,7 +27,7 @@ Tab0:AddButton({
     Name = "CHANGE UI",
     Description = "SWITCH TO UI 2.0",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Script-Hub/refs/heads/main/Rayfield%20version", true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Script-Hub/refs/heads/main/Rayfield%20versi%C3%B3n%20%7B(DISCONTINUED%7D)", true))()
    end
 })
 
