@@ -24,14 +24,14 @@ Tab0:AddDiscordInvite({
 })
 
 Tab0:AddButton({
-    Name = "CHANGE UI",
+    Name = "CHANGE UI (OLD UI)",
     Description = "SWITCH TO UI 2.0",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Script-Hub/refs/heads/main/Rayfield%20versi%C3%B3n%20%7B(DISCONTINUED%7D)", true))()
    end
 })
 
-local Tab1 = Window:MakeTab({"🎖️┃SCRIPTS FAVORITOS"})
+local Tab1 = Window:MakeTab({"🎖️┃SCRIPTS POPULARES"})
 
 Tab1:AddButton({
     Name = "REDZ HUB",
