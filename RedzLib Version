@@ -31,15 +31,11 @@ Tab0:AddButton({
    end
 })
 
-local function generateDescription(scriptName)
-    return "EJECUTAR " .. scriptName
-end
-
 local Tab1 = Window:MakeTab({"🎖️┃SCRIPTS FAVORITOS"})
 
 Tab1:AddButton({
     Name = "REDZ HUB",
-    Description = generateDescription("REDZ HUB"),
+    Description = "COMPATIBLE CON BLOX FRUITS",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))()
     end
@@ -47,7 +43,7 @@ Tab1:AddButton({
 
 Tab1:AddButton({
     Name = "W-AZURE",
-    Description = generateDescription("W-AZURE"),
+    Description = "COMPATIBLE CON BLOX FRUITS",
     Callback = function() getgenv().SlowLoadUi  = true
 
  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
@@ -56,15 +52,15 @@ Tab1:AddButton({
 
 Tab1:AddButton({
     Name = "ASTRAL HUB",
-    Description = generateDescription("ASTRAL HUB"),
+    Description = "COMPATIBLE CON BLOX FRUITS",
     Callback = function()
         loadstring(game:HttpGet('https://cdn.robloxscripts.gg/public/furky/furky-astral-source.lua'))()
     end
 })
 
 Tab1:AddButton({
-    Name = "DONATION BLOX",
-    Description = generateDescription("DONATION BLOX"),
+    Name = "DONATION BLOX SCRIPT",
+    Description = "COMPATIBLE CON DONATION BLOX",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Donation%20Blox%20Script.txt"))()
     end
