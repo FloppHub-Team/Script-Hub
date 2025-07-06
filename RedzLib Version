@@ -9,7 +9,7 @@ NotificationService:SetCore("SendNotification", {
 local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/UIs/refs/heads/main/RedzLib%20Cracked"))()
 
 local Window = redzlib:MakeWindow({
-    Title = "┃SCRIPTS INSANOS",
+    Title = "┃SCRIPT HUB",
     SubTitle = "FLOPP_HUB TEAM",
     SaveFolder = "FloppHub"
 })
