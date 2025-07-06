@@ -460,7 +460,7 @@ Tab4:AddToggle({
 
 Tab4:AddButton({
     Name = "FLY JUMP",
-    Description = generateDescription("FLY JUMP"),
+    Description = "PODER SALTAR EN EL AIRE",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Fly-Jump/refs/heads/main/Script",true))()
     end
