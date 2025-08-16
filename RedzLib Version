@@ -46,7 +46,7 @@ Tab1:AddButton({
     Description = "COMPATIBLE CON BLOX FRUITS",
     Callback = function() getgenv().SlowLoadUi  = true
 
- loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/85e904ae1ff30824c1aa007fc7324f8f.lua"))()
     end
 })
 
@@ -579,3 +579,4 @@ for title, script in pairs(scripts) do
         end
     })
 end
+
