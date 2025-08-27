@@ -25,7 +25,7 @@ Tab0:AddDiscordInvite({
 
 Tab0:AddButton({
     Name = "CHANGE UI (OLD UI)",
-    Description = "SWITCH TO UI 1.0",
+    Description = "SWITCH TO UI 1.0 (ENGLISH VERSION | DISCONTINUED)",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Script-Hub/refs/heads/main/Rayfield%20versi%C3%B3n%20%7B(DISCONTINUED%7D)", true))()
    end
@@ -38,6 +38,14 @@ Tab1:AddButton({
     Description = "COMPATIBLE WITH BLOX FRUITS",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))()
+    end
+})
+
+Tab1:AddButton({
+    Name = "DAT THG",
+    Description = "COMPATIBLE WITH BLOX FRUITS",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/DatThg/refs/heads/main/DatThgV2"))()
     end
 })
 
@@ -579,3 +587,4 @@ for title, script in pairs(scripts) do
         end
     })
 end
+
