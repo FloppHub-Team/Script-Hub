@@ -310,6 +310,14 @@ Tab3:AddButton({
 })
 
 Tab3:AddButton({
+    Name = "EXPAND HIT BOX",
+    Description = "COMPATIBLE WITH ALL GAMES (Suggested by @tadeomzt)",
+    Callback = function()
+        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Update-script-hitbox-9326"))()
+    end
+})
+
+Tab3:AddButton({
     Name = "CHAT BYPASS",
     Description = "COMPATIBLE WITH ALL GAMES",
     Callback = function()
@@ -587,6 +595,7 @@ for title, script in pairs(scripts) do
         end
     })
 end
+
 
 
 
