@@ -583,6 +583,8 @@ local scripts = {
     ["CHAT BYPASS V4"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Chat-Bypass/refs/heads/main/FH%20Bypass.txt", true))()',
     ["DONATION BLOX"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Donation%20Blox%20Script.txt"))()',
     ["CHICKEN"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Chicken%20Script.txt"))()',
+    ["HIT BOX"] = 'loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Update-script-hitbox-9326"))()',
+    ["DAT THG"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/DatThg/refs/heads/main/DatThgV2"))()',
 }
     
 for title, script in pairs(scripts) do
@@ -595,6 +597,7 @@ for title, script in pairs(scripts) do
         end
     })
 end
+
 
 
 
