@@ -43,7 +43,7 @@ Tab1:AddButton({
 
 Tab1:AddButton({
     Name = "DAT THG",
-    Description = "COMPATIBLE WITH BLOX FRUITS",
+    Description = "COMPATIBLE WITH BLOX FRUITS (Suggested by @tadeomzt)",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/DatThg/refs/heads/main/DatThgV2"))()
     end
@@ -587,4 +587,5 @@ for title, script in pairs(scripts) do
         end
     })
 end
+
 
