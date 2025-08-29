@@ -92,30 +92,34 @@ Tab1:AddButton({
 local Tab2 = Window:MakeTab({"🔥┃SCRIPTS"})
 
 Tab2:AddButton({
-    Name = "BUILD A PLANE SCRIPT 3",
+    Name = "BUILD A PLANE SCRIPT 2",
     Description = "COMPATIBLE WITH BUILD A PLANE",
-    Callback = function() loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2262a3d2f1938499d765405ca540c390.lua"))()
+    Callback = function()
+       loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2262a3d2f1938499d765405ca540c390.lua"))()
     end
 })
 
 Tab2:AddButton({
     Name = "NEOX HUB",
-    Description = "COMPATIBLE WITH BUILD A PLANE 2",
-    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/NEOXHUBMAIN/refs/heads/main/BuildAPlane"))()
+    Description = "COMPATIBLE WITH BUILD A PLANE",
+    Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/NEOXHUBMAIN/refs/heads/main/BuildAPlane"))()
     end
 })
 
 Tab2:AddButton({
     Name = "BUILD A PLANE SCRIPT 1",
     Description = "COMPATIBLE WITH BUILD A PLANE",
-    Callback = function() loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5259b6f60dd55a3a58b8223f7c1510ac.lua"))()
+    Callback = function()
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5259b6f60dd55a3a58b8223f7c1510ac.lua"))()
     end
 })
 
 Tab2:AddButton({
     Name = "H4X HUB",
     Description = "COMPATIBLE WITH 99 NIGHTS IN THE FOREST",
-    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua", true))()
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua", true))()
     end
 })
 
@@ -570,5 +574,60 @@ local UnlimitedZoomToggle = Tab4:AddToggle({
     end
   end
 })
+
+local Tab5 = Window:MakeTab({"📝┃COPY SCRIPTS"})
+
+local scripts = {
+    ["REDZ HUB"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))()',
+    ["W-AZURE"] = 'loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()',
+    ["HOHO HUB"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()',
+    ["ZAP HUB"] = 'loadstring(game:HttpGet("https://zaphub.xyz/Exec"))()',
+    ["SIX HUB"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/ySixxNz/Natural-Desastre/226d3d545efb7b36d14c0a21b23c3a2889ff3dc2/ES%20Language"))()',
+    ["NDS HUB"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/KaterHub-Inc/NaturalDisasterSurvival/refs/heads/main/main.lua"))()',
+    ["KATER HUB"] = 'loadstring(game:HttpGet("https://katerhub-inc.github.io/KaterHub/main.lua"))()',
+    ["RAGDOLL"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Ragdoll-Engine-BEST-SCRIPT-WORKING-SystemBroken-7544"))()',
+    ["SPEED HUB"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()',
+    ["BLACKHOLE"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-op-blackhole-script-20078"))()',
+    ["XERO HUB"] = 'getgenv().Team = "Marines" getgenv().Hide_Menu = false getgenv().Auto_Execute = false loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()',
+    ["BE A NPC"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/FIRE-Be-NPC-or-DIE!-OP-Script-26413"))()',
+    ["ASTRAL HUB"] = 'loadstring(game:HttpGet("https://cdn.robloxscripts.gg/public/furky/furky-astral-source.lua"))()',
+    ["ALCHEMY HUB"] = 'loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()',
+    ["MM2"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()',
+    ["INFINITE YIELD"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Infinite-Yield_500"))()',
+    ["HOP BOSS"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Teddy-Premium"))()',
+    ["FLY"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Fly-GUI-V1/refs/heads/main/FlyGui%20FH%20Team"))()',
+    ["FLY V2"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Fly-GUI-V1/refs/heads/main/Fly%20V2"))()',
+    ["VFLY"] = 'loadstring(game:HttpGet("https://pastebin.com/raw/ZgKQ0TEA"))()',
+    ["VFLY V2"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Vfly%20OP"))()',
+    ["FE EMOTE"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-fe-emote-17192"))()',
+    ["FE EMOTE 2.0"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/AllEmotes"))()',
+    ["FE EMOTE 3.0"] = 'loadstring(game:HttpGet("https://yarhm.mhi.im/scr?channel=afem", false))()',
+    ["SHIFTLOCK"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Shiftlock%20FE"))()',
+    ["SHIFTLOCK NO FIXABLE"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Shiftlock-22314"))()',
+    ["CHAT BYPASS"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/AnnaRoblox/AnnaBypasser/refs/heads/main/AnnaBypasser.lua",true))()',
+    ["AURA NATURAL DISASTER"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/KAWAII-AURA/main/kawaii_aura.lua", true))()',
+    ["JUMP BUTTON"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Jump-Button/refs/heads/main/Script",true))()',
+    ["FLY JUMP"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Fly-Jump/refs/heads/main/Script",true))()',
+    ["DEAD RAILS 1"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/Markklol/aw/refs/heads/main/Protected/DRailsv2.lua"))()',
+    ["DEAD RAILS 2"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/DeadRails"))()',
+    ["CHAT BYPASS V3"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/Synergy-Networks/products/main/BetterBypasser/loader.lua",true))()',
+    ["CHAT BYPASS V2"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/twig76/ayra/refs/heads/main/ayras",true))()',
+    ["CHAT BYPASS V4"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Chat-Bypass/refs/heads/main/FH%20Bypass.txt", true))()',
+    ["DONATION BLOX"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Donation%20Blox%20Script.txt"))()',
+    ["CHICKEN"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Chicken%20Script.txt"))()',
+    ["HIT BOX"] = 'loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Update-script-hitbox-9326"))()',
+    ["DAT THG"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/DatThg/refs/heads/main/DatThgV2"))()',
+}
+    
+for title, script in pairs(scripts) do
+    Tab5:AddButton({
+        Name = title,
+        Description = "COPY SCRIPT",
+        Callback = function()
+            setclipboard(script)
+            print(title .. " copied to clipboard!")
+        end
+    })
 end
+
 
