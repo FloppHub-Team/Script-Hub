@@ -617,6 +617,10 @@ local scripts = {
     ["CHICKEN"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Chicken%20Script.txt"))()',
     ["HIT BOX"] = 'loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Update-script-hitbox-9326"))()',
     ["DAT THG"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/DatThg/refs/heads/main/DatThgV2"))()',
+    ["BUILD A PLANE SCRIPT 1"] = 'loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5259b6f60dd55a3a58b8223f7c1510ac.lua"))()', 
+    ["BUILD A PLANE SCRIPT 2"] = 'loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2262a3d2f1938499d765405ca540c390.lua"))()', 
+    ["NEOX HUB"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/NEOXHUBMAIN/refs/heads/main/BuildAPlane"))()', 
+    ["HAX HUB"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua", true))()', 
 }
     
 for title, script in pairs(scripts) do
@@ -629,5 +633,6 @@ for title, script in pairs(scripts) do
         end
     })
 end
+
 
 
