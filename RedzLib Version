@@ -93,7 +93,7 @@ local Tab2 = Window:MakeTab({"🔥┃SCRIPTS"})
 
 Tab2:AddButton({
     Name = "BUILD A PLANE SCRIPT 2",
-    Description = "COMPATIBLE WITH BUILD A PLANE",
+    Description = "COMPATIBLE WITH BUILD A PLANE (Suggested by @tadeomzt)",
     Callback = function()
        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2262a3d2f1938499d765405ca540c390.lua"))()
     end
@@ -101,7 +101,7 @@ Tab2:AddButton({
 
 Tab2:AddButton({
     Name = "NEOX HUB",
-    Description = "COMPATIBLE WITH BUILD A PLANE",
+    Description = "COMPATIBLE WITH BUILD A PLANE (Suggested by @tadeomzt)",
     Callback = function() 
        loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/NEOXHUBMAIN/refs/heads/main/BuildAPlane"))()
     end
@@ -109,7 +109,7 @@ Tab2:AddButton({
 
 Tab2:AddButton({
     Name = "BUILD A PLANE SCRIPT 1",
-    Description = "COMPATIBLE WITH BUILD A PLANE",
+    Description = "COMPATIBLE WITH BUILD A PLANE (Suggested by @tadeomzt)",
     Callback = function()
         loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5259b6f60dd55a3a58b8223f7c1510ac.lua"))()
     end
@@ -117,7 +117,7 @@ Tab2:AddButton({
 
 Tab2:AddButton({
     Name = "H4X HUB",
-    Description = "COMPATIBLE WITH 99 NIGHTS IN THE FOREST",
+    Description = "COMPATIBLE WITH 99 NIGHTS IN THE FOREST (Suggested by @tadeomzt)",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua", true))()
     end
@@ -633,6 +633,7 @@ for title, script in pairs(scripts) do
         end
     })
 end
+
 
 
 
