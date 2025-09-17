@@ -26,10 +26,13 @@ local MobileButton = Minimizer:CreateMobileMinimizer({
 local Tab0 = Window:MakeTab({"┃DISCORD SERVER"})
 
 Tab0:AddDiscordInvite({
-  Title = "FloppHub Team",
-  Desc = "JOIN our Discord server for the best BYPASS BOTS",
-  Logo = "rbxthumb://type=Asset&id=112586798808707&w=150&h=150", 
-  Invite = "https://dsc.gg/flopphub-team"
+	Title = "FloppHub Team",
+	Description = "JOIN our Discord server for the best BYPASS BOTS",
+	Banner = "rbxassetid://17382040552", -- You can put an RGB Color: Color3.fromRGB(233, 37, 69)
+	Logo = "rbxassetid://112586798808707",
+	Invite = "https://dsc.gg/flopphub-team",
+	Members = 700,
+	Online = 100,
 })
 
 Tab0:AddButton({
@@ -642,4 +645,5 @@ for title, script in pairs(scripts) do
         end
     })
 end
+
 
