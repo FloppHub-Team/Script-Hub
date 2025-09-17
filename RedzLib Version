@@ -1,19 +1,18 @@
-local StarterGui = game:GetService("StarterGui")
-if StarterGui and StarterGui.SetCore then
-    StarterGui:SetCore("SendNotification", {
-        Title = "Script Hub By FloppHub Team  Cracked UI",
-        Text = "🔥https://dsc.gg/flopphub-team🔥",
-        Duration = 10
-    })
-else
-    warn("No se pudo mostrar la notificación.")
-end
+local NotificationService = game:GetService("StarterGui")
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Library/refs/heads/main/redz-V5-remake/main.luau"))()
-if not redzlib then
-    warn("No se pudo cargar RedzLib.")
-    return
-end
+NotificationService:SetCore("SendNotification", {
+    Title = "Script Hub By FloppHub Team  Cracked UI",
+    Text = "🔥https://dsc.gg/flopphub-team🔥",
+    Duration = 10
+})
+
+local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/UIs/refs/heads/main/RedzLib%20Cracked"))()
+
+local Window = redzlib:MakeWindow({
+    Title = "┃SCRIPT HUB",
+    SubTitle = "FloppHub Team",
+    SaveFolder = "FloppHub"
+})
 
 local Tab0 = Window:MakeTab({"┃DISCORD SERVER"})
 
@@ -523,19 +522,18 @@ Tab4:AddToggle({
     Callback = function(state)
         local player = game.Players.LocalPlayer
         local character = player.Character
-        
-        -- VERIFICACIÓN SEGURA del character y humanoid
-        if not character or not character:FindFirstChildOfClass("Humanoid") then
-            warn("Character or Humanoid not found!")
-            return
-        end
-        
-        local humanoid = character:FindFirstChildOfClass("Humanoid")
-        
+        local humanoid = character.Humanoid
+
         if state then
             humanoid.JumpPower = 100
             humanoid.AutoRotate = true
-            -- Aquí deberías implementar los saltos infinitos de otra manera
+
+            while true do
+                wait(0.1)
+                if humanoid.Jump == true then
+                    character.HumanoidRootPart.Velocity = Vector3.new(0, 50, 0)
+                end
+            end
         else
             humanoid.JumpPower = 50
             humanoid.AutoRotate = true
@@ -590,12 +588,7 @@ local scripts = {
     ["RAGDOLL"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Ragdoll-Engine-BEST-SCRIPT-WORKING-SystemBroken-7544"))()',
     ["SPEED HUB"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()',
     ["BLACKHOLE"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-op-blackhole-script-20078"))()',
-    ["XERO HUB"] = [[
-        getgenv().Team = "Marines"
-        getgenv().Hide_Menu = false
-        getgenv().Auto_Execute = false
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
-    ]],
+    ["XERO HUB"] = 'getgenv().Team = "Marines" getgenv().Hide_Menu = false getgenv().Auto_Execute = false loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()',
     ["BE A NPC"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/FIRE-Be-NPC-or-DIE!-OP-Script-26413"))()',
     ["ASTRAL HUB"] = 'loadstring(game:HttpGet("https://cdn.robloxscripts.gg/public/furky/furky-astral-source.lua"))()',
     ["ALCHEMY HUB"] = 'loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()',
@@ -640,5 +633,3 @@ for title, script in pairs(scripts) do
         end
     })
 end
-
-
