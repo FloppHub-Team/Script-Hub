@@ -11,16 +11,7 @@ local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Flopp
 local Window = redzlib:MakeWindow({
     Title = "┃SCRIPT HUB",
     SubTitle = "FloppHub Team",
-    SaveFolder = "FloppHub"
-})
-
-local Minimizer = Window:NewMinimizer({
-  KeyCode = Enum.KeyCode.LeftControl
-})
-
-local MobileButton = Minimizer:CreateMobileMinimizer({
-  Image = "rbxassetid://112586798808707",
-  BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    SaveFolder = "FloppHub-lol"
 })
 
 local Tab0 = Window:MakeTab({"┃DISCORD SERVER"})
