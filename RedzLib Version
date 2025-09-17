@@ -11,7 +11,7 @@ else
 end
 
 -- Cargar RedzLib
-local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/UIs/refs/heads/main/RedzLib%20Cracked"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/UIs/refs/heads/main/RedzLib%20Cracked"))()
 if not redzlib then
     warn("No se pudo cargar RedzLib.")
     return
@@ -1248,6 +1248,7 @@ for title, script in pairs(scripts) do
         end
     })
 end
+
 
 
 
