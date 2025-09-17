@@ -1202,11 +1202,11 @@ local scripts = {
     ["SPEED HUB"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()',
     ["BLACKHOLE"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-op-blackhole-script-20078"))()',
     ["XERO HUB"] = [[
-    getgenv().Team = "Marines"
-    getgenv().Hide_Menu = false
-    getgenv().Auto_Execute = false
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
-]],
+        getgenv().Team = "Marines"
+        getgenv().Hide_Menu = false
+        getgenv().Auto_Execute = false
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
+    ]],
     ["BE A NPC"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/FIRE-Be-NPC-or-DIE!-OP-Script-26413"))()',
     ["ASTRAL HUB"] = 'loadstring(game:HttpGet("https://cdn.robloxscripts.gg/public/furky/furky-astral-source.lua"))()',
     ["ALCHEMY HUB"] = 'loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()',
@@ -1251,22 +1251,3 @@ for title, script in pairs(scripts) do
         end
     })
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
