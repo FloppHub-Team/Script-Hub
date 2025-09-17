@@ -6,12 +6,12 @@ NotificationService:SetCore("SendNotification", {
     Duration = 10
 })
 
-local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/UIs/refs/heads/main/RedzLib%20Cracked"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/UIs/refs/heads/main/RedzLib%20Cracked"))()
 
 local Window = redzlib:MakeWindow({
     Title = "┃SCRIPT HUB",
     SubTitle = "FloppHub Team",
-    SaveFolder = "FloppHub"
+    SaveFolder = "FloppHub-lol"
 })
 
 local Minimizer = Window:NewMinimizer({
@@ -642,6 +642,7 @@ for title, script in pairs(scripts) do
         end
     })
 end
+
 
 
 
