@@ -9,7 +9,7 @@ else
     warn("No se pudo mostrar la notificación.")
 end
 
-local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/UIs/refs/heads/main/RedzLib%20Cracked"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Library/refs/heads/main/redz-V5-remake/main.luau"))()
 if not redzlib then
     warn("No se pudo cargar RedzLib.")
     return
@@ -640,4 +640,5 @@ for title, script in pairs(scripts) do
         end
     })
 end
+
 
