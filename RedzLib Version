@@ -1,18 +1,21 @@
-local NotificationService = game:GetService("StarterGui")
+-- Verificar StarterGui
+local StarterGui = game:GetService("StarterGui")
+if StarterGui and StarterGui.SetCore then
+    StarterGui:SetCore("SendNotification", {
+        Title = "Script Hub By FloppHub Team  Cracked UI",
+        Text = "🔥https://dsc.gg/flopphub-team🔥",
+        Duration = 10
+    })
+else
+    warn("No se pudo mostrar la notificación.")
+end
 
-NotificationService:SetCore("SendNotification", {
-    Title = "Script Hub By FloppHub Team  Cracked UI",
-    Text = "🔥https://dsc.gg/flopphub-team🔥",
-    Duration = 10
-})
-
+-- Cargar RedzLib
 local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/UIs/refs/heads/main/RedzLib%20Cracked"))()
-
-local Window = redzlib:MakeWindow({
-    Title = "┃SCRIPT HUB",
-    SubTitle = "FloppHub Team",
-    SaveFolder = "FloppHub"
-})
+if not redzlib then
+    warn("No se pudo cargar RedzLib.")
+    return
+end
 
 local Tab0 = Window:MakeTab({"┃DISCORD SERVER"})
 
@@ -1245,6 +1248,7 @@ for title, script in pairs(scripts) do
         end
     })
 end
+
 
 
 
