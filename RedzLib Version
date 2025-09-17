@@ -522,18 +522,15 @@ Tab4:AddToggle({
     Callback = function(state)
         local player = game.Players.LocalPlayer
         local character = player.Character
+        if not character or not character:FindFirstChild("Humanoid") then
+            return
+        end
+        
         local humanoid = character.Humanoid
 
         if state then
             humanoid.JumpPower = 100
             humanoid.AutoRotate = true
-
-            while true do
-                wait(0.1)
-                if humanoid.Jump == true then
-                    character.HumanoidRootPart.Velocity = Vector3.new(0, 50, 0)
-                end
-            end
         else
             humanoid.JumpPower = 50
             humanoid.AutoRotate = true
@@ -1244,6 +1241,7 @@ for title, script in pairs(scripts) do
         end
     })
 end
+
 
 
 
