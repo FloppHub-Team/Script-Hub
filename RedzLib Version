@@ -27,7 +27,7 @@ local Tab0 = Window:MakeTab({"┃DISCORD SERVER"})
 
 Tab0:AddDiscordInvite({
   Title = "FloppHub Team",
-  Desc = "JOIN our Discord server for the best BYPASS BOTS",
+  Description = "JOIN our Discord server for the best BYPASS BOTS",
   Logo = "rbxthumb://type=Asset&id=112586798808707&w=150&h=150", 
   Invite = "https://dsc.gg/flopphub-team"
 })
@@ -642,6 +642,7 @@ for title, script in pairs(scripts) do
         end
     })
 end
+
 
 
 
