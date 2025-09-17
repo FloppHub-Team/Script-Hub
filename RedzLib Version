@@ -8,7 +8,7 @@ Window:Notify({
   Title = "Script Hub By FloppHub Team  Cracked UI",
   Content = "🔥https://dsc.gg/flopphub-team🔥",
   Image = "rbxassetid://112586798808707",
-  Duration = 10
+  Duration = 20
 })
 local Minimizer = Window:NewMinimizer({
   KeyCode = Enum.KeyCode.LeftControl
@@ -845,3 +845,4 @@ for title, script in pairs(scripts) do
         end
     })
 end
+
