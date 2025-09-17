@@ -1,4 +1,3 @@
--- Verificar StarterGui
 local StarterGui = game:GetService("StarterGui")
 if StarterGui and StarterGui.SetCore then
     StarterGui:SetCore("SendNotification", {
@@ -10,7 +9,6 @@ else
     warn("No se pudo mostrar la notificación.")
 end
 
--- Cargar RedzLib
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/UIs/refs/heads/main/RedzLib%20Cracked"))()
 if not redzlib then
     warn("No se pudo cargar RedzLib.")
@@ -1203,7 +1201,12 @@ local scripts = {
     ["RAGDOLL"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Ragdoll-Engine-BEST-SCRIPT-WORKING-SystemBroken-7544"))()',
     ["SPEED HUB"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()',
     ["BLACKHOLE"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-op-blackhole-script-20078"))()',
-    ["XERO HUB"] = 'getgenv().Team = "Marines" getgenv().Hide_Menu = false getgenv().Auto_Execute = false loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()',
+    ["XERO HUB"] = [[
+    getgenv().Team = "Marines"
+    getgenv().Hide_Menu = false
+    getgenv().Auto_Execute = false
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
+]],
     ["BE A NPC"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/FIRE-Be-NPC-or-DIE!-OP-Script-26413"))()',
     ["ASTRAL HUB"] = 'loadstring(game:HttpGet("https://cdn.robloxscripts.gg/public/furky/furky-astral-source.lua"))()',
     ["ALCHEMY HUB"] = 'loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()',
@@ -1248,6 +1251,7 @@ for title, script in pairs(scripts) do
         end
     })
 end
+
 
 
 
