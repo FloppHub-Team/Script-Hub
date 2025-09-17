@@ -522,15 +522,19 @@ Tab4:AddToggle({
     Callback = function(state)
         local player = game.Players.LocalPlayer
         local character = player.Character
-        if not character or not character:FindFirstChild("Humanoid") then
+        
+        -- VERIFICACIÓN SEGURA del character y humanoid
+        if not character or not character:FindFirstChildOfClass("Humanoid") then
+            warn("Character or Humanoid not found!")
             return
         end
         
-        local humanoid = character.Humanoid
-
+        local humanoid = character:FindFirstChildOfClass("Humanoid")
+        
         if state then
             humanoid.JumpPower = 100
             humanoid.AutoRotate = true
+            -- Aquí deberías implementar los saltos infinitos de otra manera
         else
             humanoid.JumpPower = 50
             humanoid.AutoRotate = true
@@ -1241,6 +1245,7 @@ for title, script in pairs(scripts) do
         end
     })
 end
+
 
 
 
