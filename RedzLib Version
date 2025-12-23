@@ -24,8 +24,8 @@ Tab0:AddDiscordInvite({
 	Banner = "Color3.fromRGB(255, 165, 0)",
 	Logo = "rbxassetid://112586798808707",
 	Invite = "https://dsc.gg/flopphub-team",
-	Members = 700,
-	Online = 100,
+	Members = 800+,
+	Online = 50,
 })
 Tab0:AddButton({
     Name = "CHANGE UI (OLD UI)",
@@ -845,4 +845,5 @@ for title, script in pairs(scripts) do
         end
     })
 end
+
 
