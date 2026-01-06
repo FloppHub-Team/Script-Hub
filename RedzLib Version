@@ -157,7 +157,7 @@ Tab1:AddButton({
     end
 })
 Tab1:AddButton({
-    Name = "BlueX Hub",
+    Name = "BLUEX HUB",
     Description = "BLOX FRUITS SCRIPT",
     Callback = function()
         Window:Notify({
@@ -170,7 +170,7 @@ Tab1:AddButton({
     end
 })
 Tab1:AddButton({
-    Name = "FloppBlox",
+    Name = "FLOPPBLOX",
     Description = "BLOX FRUITS SCRIPT",
     Callback = function()
         Window:Notify({
@@ -675,8 +675,8 @@ local scripts = {
     ["HOP BOSS"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Teddy-Premium"))()',
     ["SPEED HUB"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()',
     ["ALCHEMY HUB"] = 'loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()',
-    ["BlueX Hub"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()',
-    ["FloppBlox"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/BloxFruits-Script/refs/heads/main/FloppHubX.lua"))()',
+    ["BLUEX HUB"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()',
+    ["FLOPPBLOX"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/BloxFruits-Script/refs/heads/main/FloppHubX.lua"))()',
     ["BUILD A PLANE SCRIPT 2"] = 'loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2262a3d2f1938499d765405ca540c390.lua"))()',
     ["NEOX HUB"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/NEOXHUBMAIN/refs/heads/main/BuildAPlane"))()',
     ["BUILD A PLANE SCRIPT 1"] = 'loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5259b6f60dd55a3a58b8223f7c1510ac.lua"))()',
@@ -729,3 +729,4 @@ for title, script in pairs(scripts) do
     })
 end
  
+
