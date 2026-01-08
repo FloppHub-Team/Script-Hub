@@ -609,7 +609,7 @@ Tab8:AddButton({
           Image = "rbxassetid://112586798808707",
           Duration = 5
         })
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Fix-JUMP-BUTTON-/refs/heads/main/Script",true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Jump-Button/refs/heads/main/Script",true))()
     end
 })
 Tab8:AddButton({
@@ -664,7 +664,183 @@ Tab8:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Chat-Bypass/refs/heads/main/FH%20Bypass.txt", true))()
     end
 })
-local Tab9 = Window:MakeTab({"📝┃COPY SCRIPTS"})
+local Tab9 = Window:MakeTab({"⚙️┃MISC"})
+local jumpSlider = nil
+local loopConnection = nil
+local OriginalMaxZoomDistance = game.Players.LocalPlayer.CameraMaxZoomDistance
+local loopSpeed = false
+local speedSlider = nil
+Tab9:AddToggle({
+    Name = "CHANGE SPEED",
+    Default = false,
+    Size = UDim2.new(0, 500, 0, 50),
+    Callback = function(state)
+        loopSpeed = state
+        local player = game.Players.LocalPlayer
+        local character = player.Character
+        local humanoid = character and character:FindFirstChildOfClass("Humanoid")
+        if humanoid then
+            if state then
+                if not speedSlider then
+                    speedSlider = Tab9:AddSlider({
+                        Name = "🏃┃SPEED",
+                        Min = 1,
+                        Max = 1000,
+                        Default = humanoid.WalkSpeed,
+                        Size = UDim2.new(0, 500, 0, 50),
+                        Callback = function(value)
+                            humanoid.WalkSpeed = value
+                        end,
+                        Smooth = true,
+                        Animation = {
+                            Enabled = true,
+                            Time = 0.5
+                        }
+                    })
+                end
+            else
+                humanoid.WalkSpeed = 30
+                if speedSlider then
+                    speedSlider:Destroy()
+                    speedSlider = nil
+                end
+            end
+        end
+    end
+})
+game:GetService("RunService").RenderStepped:Connect(function()
+    if loopSpeed and speedSlider then
+        local player = game.Players.LocalPlayer
+        local character = player.Character
+        local humanoid = character and character:FindFirstChildOfClass("Humanoid")
+        if humanoid then
+            humanoid.WalkSpeed = speedSlider:GetValue()
+        end
+    end
+end)
+local Toggle1 = Tab9:AddToggle({
+  Name = "MODIFY SPEED V2",
+  Description = "SOMETIMES THE FIRST OPTION DOESN'T WORK",
+  Default = false
+})
+Tab9:AddSlider({
+  Name = "🏃┃MODIFY SPEED",
+  Min = 1,
+  Max = 1000,
+  Increase = 10,
+  Default = 30,
+  Callback = function(Value)
+  game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+  end
+})
+Tab9:AddToggle({
+    Name = "CHANGE JUMP POWER",
+    Description = "CHANGE JUMP POWER",
+    Default = false,
+    Size = UDim2.new(0, 500, 0, 50),
+    Callback = function(state)
+        local player = game.Players.LocalPlayer
+        local character = player.Character
+        local humanoid = character and character:FindFirstChildOfClass("Humanoid")
+        if humanoid then
+            if state then
+                if not jumpSlider then
+                    jumpSlider = Tab9:AddSlider({
+                        Name = "🦘┃JUMP POWER",
+                        Min = 1,
+                        Max = 1000,
+                        Default = humanoid.JumpPower,
+                        Size = UDim2.new(0, 500, 0, 50),
+                        Callback = function(value)
+                            humanoid.JumpPower = value
+                        end,
+                        Smooth = true,
+                        Animation = {
+                            Enabled = true,
+                            Time = 0.5
+                        }
+                    })
+                end
+            else
+                humanoid.JumpPower = 50
+                if jumpSlider then
+                    jumpSlider:Destroy()
+                    jumpSlider = nil
+                end
+            end
+        end
+    end
+})
+Tab9:AddButton({
+    Name = "FLY JUMP",
+    Description = "JUMP IN THE AIR",
+    Callback = function()
+        Window:Notify({
+          Title = "FLY JUMP EXECUTED!",
+          Content = "Enjoy the script",
+          Image = "rbxassetid://112586798808707",
+          Duration = 5
+        })
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Fly-Jump/refs/heads/main/Script",true))()
+    end
+})
+Tab9:AddToggle({
+    Name = "INFINITE JUMPS",
+    Description = "ENABLE/DISABLE INFINITE JUMPS",
+    Default = false,
+    Size = UDim2.new(0, 500, 0, 50),
+    Callback = function(state)
+        local player = game.Players.LocalPlayer
+        local character = player.Character
+        local humanoid = character.Humanoid
+        if state then
+            humanoid.JumpPower = 100
+            humanoid.AutoRotate = true
+            while true do
+                wait(0.1)
+                if humanoid.Jump == true then
+                    character.HumanoidRootPart.Velocity = Vector3.new(0, 50, 0)
+                end
+            end
+        else
+            humanoid.JumpPower = 50
+            humanoid.AutoRotate = true
+        end
+    end
+})
+Tab9:AddToggle({
+  Name = "LOOP FULL BRIGHT",
+  Description = "ENABLE TO ALWAYS BE DAYTIME",
+  Default = false,
+  Callback = function(Value)
+    if Value then
+      loopConnection = game:GetService("RunService").Stepped:Connect(function()
+        game.Lighting.ClockTime = 14
+      end)
+    else
+      if loopConnection then
+        loopConnection:Disconnect()
+        loopConnection = nil
+      end
+    end
+  end
+})
+local UnlimitedZoomToggle = Tab9:AddToggle({
+  Name = "NO LIMIT ZOOM",
+  Description = "ZOOM THE CAMERA INFINITELY",
+  Default = false,
+  Callback = function(Value)
+    if Value then
+      while Value do
+        game.Players.LocalPlayer.CameraMaxZoomDistance = game.Players.LocalPlayer.CameraMaxZoomDistance + 999999999999999999999999999999999999999999999999999999
+        wait(0.1)
+      end
+    else
+      game.Players.LocalPlayer.CameraMaxZoomDistance = OriginalMaxZoomDistance
+    end
+  end
+})
+local Tab10 = Window:MakeTab({"📝┃COPY SCRIPTS"})
 local scripts = {
     ["REDZ HUB"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))()',
     ["DAT THG"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/DatThg/refs/heads/main/DatThgV2"))()',
@@ -713,7 +889,7 @@ local scripts = {
     ["CHAT BYPASS V4"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Chat-Bypass/refs/heads/main/FH%20Bypass.txt", true))()',
 }
 for title, script in pairs(scripts) do
-    Tab9:AddButton({
+    Tab10:AddButton({
         Name = title,
         Description = "COPY SCRIPT",
         Callback = function()
@@ -728,5 +904,3 @@ for title, script in pairs(scripts) do
         end
     })
 end
- 
-
