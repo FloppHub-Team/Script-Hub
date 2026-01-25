@@ -238,7 +238,7 @@ Tab3:AddButton({
         end)
         task.spawn(function()
             loadstring(game:HttpGet("https://rawscripts.net/raw/Ragdoll-Engine-BEST-SCRIPT-WORKING-SystemBroken-7544"))()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/ySixxNz/Natural-Desastre/226d3d545efb7b36d14c0a21b23c3a2889ff3dc2/ES%20Language"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/NDS.lua"))()
         end)
     end
 })
@@ -904,5 +904,6 @@ for title, script in pairs(scripts) do
         end
     })
 end
+
 
 
