@@ -247,12 +247,12 @@ Tab3:AddButton({
     Description = "NATURAL DISASTER SCRIPT",
     Callback = function()
         Window:Notify({
-          Title = "SIX HUB EXECUTED!",
+          Title = "FLOPP HUB EXECUTED!",
           Content = "Enjoy the script",
           Image = "rbxassetid://112586798808707",
           Duration = 5
         })
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/ySixxNz/Natural-Desastre/226d3d545efb7b36d14c0a21b23c3a2889ff3dc2/ES%20Language"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/NDS.lua"))()
     end
 })
 Tab3:AddButton({
@@ -904,3 +904,4 @@ for title, script in pairs(scripts) do
         end
     })
 end
+
