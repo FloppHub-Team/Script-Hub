@@ -243,7 +243,7 @@ Tab3:AddButton({
     end
 })
 Tab3:AddButton({
-    Name = "SIX HUB",
+    Name = "FLOPP HUB",
     Description = "NATURAL DISASTER SCRIPT",
     Callback = function()
         Window:Notify({
@@ -904,4 +904,5 @@ for title, script in pairs(scripts) do
         end
     })
 end
+
 
