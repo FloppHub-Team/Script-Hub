@@ -395,6 +395,21 @@ Tab9:AddButton({
     end
 })
 
+local TabTS = Window:MakeTab({"🌊┃TSUNAMI BRAINROT"})
+TabTS:AddButton({
+    Name = "TSUNAMI BRAINROT",
+    Description = "TSUNAMI BRAINROT SCRIPT",
+    Callback = function()
+        Window:Notify({
+          Title = "TSUNAMI BRAINROT EXECUTED!",
+          Content = "Enjoy the script",
+          Image = "rbxassetid://112586798808707",
+          Duration = 5
+        })
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/TsunamiBrainrot.lua"))()
+    end
+})
+
 local Tab10 = Window:MakeTab({"🎮┃OTHER GAMES"})
 Tab10:AddButton({
     Name = "CHICKEN",
