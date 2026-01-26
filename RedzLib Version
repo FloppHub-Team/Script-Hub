@@ -350,7 +350,7 @@ Tab6:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/DeadRails"))()
     end
 })
-local Tab7 = Window:MakeTab({"🎮┃OTHER GAMES"})
+local Tab7 = Window:MakeTab({"🌳┃99 NIGHTS IN THE FOREST"})
 Tab7:AddButton({
     Name = "H4X HUB",
     Description = "99 NIGHTS IN THE FOREST SCRIPT",
@@ -364,7 +364,9 @@ Tab7:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua", true))()
     end
 })
-Tab7:AddButton({
+
+local Tab8 = Window:MakeTab({"👤┃BE A NPC"})
+Tab8:AddButton({
     Name = "BE A NPC",
     Description = "BE A NPC SCRIPT",
     Callback = function()
@@ -377,7 +379,24 @@ Tab7:AddButton({
         loadstring(game:HttpGet("https://rawscripts.net/raw/FIRE-Be-NPC-or-DIE!-OP-Script-26413"))()
     end
 })
-Tab7:AddButton({
+
+local Tab9 = Window:MakeTab({"👏┃SLAP BATTLES"})
+Tab9:AddButton({
+    Name = "SLAP BATTLES",
+    Description = "SLAP BATTLES SCRIPT",
+    Callback = function()
+        Window:Notify({
+          Title = "SLAP BATTLES EXECUTED!",
+          Content = "Enjoy the script",
+          Image = "rbxassetid://112586798808707",
+          Duration = 5
+        })
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Slap%20Battles.lua"))()
+    end
+})
+
+local Tab10 = Window:MakeTab({"🎮┃OTHER GAMES"})
+Tab10:AddButton({
     Name = "CHICKEN",
     Description = "CHICKEN SCRIPT",
     Callback = function()
@@ -390,7 +409,7 @@ Tab7:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Chicken%20Script.txt"))()
     end
 })
-Tab7:AddButton({
+Tab10:AddButton({
     Name = "DONATION BLOX SCRIPT",
     Description = "DONATION BLOX SCRIPT",
     Callback = function()
@@ -403,8 +422,8 @@ Tab7:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Donation%20Blox%20Script.txt"))()
     end
 })
-local Tab8 = Window:MakeTab({"🌐┃UNIVERSAL SCRIPTS"})
-Tab8:AddButton({
+local Tab11 = Window:MakeTab({"🌐┃UNIVERSAL SCRIPTS"})
+Tab11:AddButton({
     Name = "KATER HUB",
     Description = "UNIVERSAL SCRIPT",
     Callback = function()
@@ -417,7 +436,7 @@ Tab8:AddButton({
         loadstring(game:HttpGet("https://katerhub-inc.github.io/KaterHub/main.lua"))()
     end
 })
-Tab8:AddButton({
+Tab11:AddButton({
     Name = "RAGDOLL",
     Description = "UNIVERSAL SCRIPT",
     Callback = function()
@@ -430,7 +449,7 @@ Tab8:AddButton({
         loadstring(game:HttpGet("https://rawscripts.net/raw/Ragdoll-Engine-BEST-SCRIPT-WORKING-SystemBroken-7544"))()
     end
 })
-Tab8:AddButton({
+Tab11:AddButton({
     Name = "BLACKHOLE",
     Description = "UNIVERSAL SCRIPT",
     Callback = function()
@@ -443,7 +462,7 @@ Tab8:AddButton({
         loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-op-blackhole-script-20078"))()
     end
 })
-Tab8:AddButton({
+Tab11:AddButton({
     Name = "INFINITE YIELD",
     Description = "UNIVERSAL SCRIPT",
     Callback = function()
@@ -456,7 +475,7 @@ Tab8:AddButton({
         loadstring(game:HttpGet("https://rawscripts.net/raw/Infinite-Yield_500"))()
     end
 })
-Tab8:AddButton({
+Tab11:AddButton({
     Name = "TELEKINESIS",
     Description = "UNIVERSAL SCRIPT",
     Callback = function()
@@ -469,7 +488,7 @@ Tab8:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/hm5650/PCR/refs/heads/main/PartControllerRemote"))()
     end
 })
-Tab8:AddButton({
+Tab11:AddButton({
     Name = "EXPAND HIT BOX",
     Description = "UNIVERSAL SCRIPT",
     Callback = function()
@@ -482,7 +501,7 @@ Tab8:AddButton({
         loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Update-script-hitbox-9326"))()
     end
 })
-Tab8:AddButton({
+Tab11:AddButton({
     Name = "FLY",
     Description = "UNIVERSAL SCRIPT",
     Callback = function()
@@ -495,7 +514,7 @@ Tab8:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Fly-GUI-V1/refs/heads/main/FlyGui%20FH%20Team"))()
     end
 })
-Tab8:AddButton({
+Tab11:AddButton({
     Name = "FLY V2",
     Description = "UNIVERSAL SCRIPT",
     Callback = function()
@@ -508,7 +527,7 @@ Tab8:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Fly-GUI-V1/refs/heads/main/Fly%20V2"))()
     end
 })
-Tab8:AddButton({
+Tab11:AddButton({
     Name = "VFLY",
     Description = "UNIVERSAL SCRIPT",
     Callback = function()
@@ -521,7 +540,7 @@ Tab8:AddButton({
         loadstring(game:HttpGet("https://pastebin.com/raw/ZgKQ0TEA"))()
     end
 })
-Tab8:AddButton({
+Tab11:AddButton({
     Name = "VFLY V2",
     Description = "UNIVERSAL SCRIPT",
     Callback = function()
@@ -534,7 +553,7 @@ Tab8:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Vfly%20OP"))()
     end
 })
-Tab8:AddButton({
+Tab11:AddButton({
     Name = "FE EMOTE",
     Description = "UNIVERSAL SCRIPT",
     Callback = function()
@@ -547,7 +566,7 @@ Tab8:AddButton({
         loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-fe-emote-17192"))()
     end
 })
-Tab8:AddButton({
+Tab11:AddButton({
     Name = "FE EMOTE 2.0",
     Description = "UNIVERSAL SCRIPT",
     Callback = function()
@@ -560,7 +579,7 @@ Tab8:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/AllEmotes"))()
     end
 })
-Tab8:AddButton({
+Tab11:AddButton({
     Name = "FE EMOTE 3.0",
     Description = "UNIVERSAL SCRIPT",
     Callback = function()
@@ -573,7 +592,7 @@ Tab8:AddButton({
         loadstring(game:HttpGet("https://yarhm.mhi.im/scr?channel=afem", false))()
     end
 })
-Tab8:AddButton({
+Tab11:AddButton({
     Name = "SHIFTLOCK",
     Description = "UNIVERSAL SCRIPT",
     Callback = function()
@@ -586,7 +605,7 @@ Tab8:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Shiftlock%20FE"))()
     end
 })
-Tab8:AddButton({
+Tab11:AddButton({
     Name = "SHIFTLOCK NO FIXABLE",
     Description = "UNIVERSAL SCRIPT",
     Callback = function()
@@ -599,7 +618,7 @@ Tab8:AddButton({
         loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Shiftlock-22314"))()
     end
 })
-Tab8:AddButton({
+Tab11:AddButton({
     Name = "JUMP BUTTON",
     Description = "UNIVERSAL SCRIPT",
     Callback = function()
@@ -612,7 +631,7 @@ Tab8:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Jump-Button/refs/heads/main/Script",true))()
     end
 })
-Tab8:AddButton({
+Tab11:AddButton({
     Name = "CHAT BYPASS",
     Description = "UNIVERSAL SCRIPT",
     Callback = function()
@@ -625,7 +644,7 @@ Tab8:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AnnaRoblox/AnnaBypasser/refs/heads/main/AnnaBypasser.lua",true))()
     end
 })
-Tab8:AddButton({
+Tab11:AddButton({
     Name = "CHAT BYPASS V2",
     Description = "UNIVERSAL SCRIPT",
     Callback = function()
@@ -638,7 +657,7 @@ Tab8:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/twig76/ayra/refs/heads/main/ayras",true))()
     end
 })
-Tab8:AddButton({
+Tab11:AddButton({
     Name = "CHAT BYPASS V3",
     Description = "UNIVERSAL SCRIPT",
     Callback = function()
@@ -651,7 +670,7 @@ Tab8:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Synergy-Networks/products/main/BetterBypasser/loader.lua",true))()
     end
 })
-Tab8:AddButton({
+Tab11:AddButton({
     Name = "CHAT BYPASS V4",
     Description = "UNIVERSAL SCRIPT",
     Callback = function()
@@ -664,13 +683,13 @@ Tab8:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Chat-Bypass/refs/heads/main/FH%20Bypass.txt", true))()
     end
 })
-local Tab9 = Window:MakeTab({"⚙️┃MISC"})
+local Tab12 = Window:MakeTab({"⚙️┃MISC"})
 local jumpSlider = nil
 local loopConnection = nil
 local OriginalMaxZoomDistance = game.Players.LocalPlayer.CameraMaxZoomDistance
 local loopSpeed = false
 local speedSlider = nil
-Tab9:AddToggle({
+Tab12:AddToggle({
     Name = "CHANGE SPEED",
     Default = false,
     Size = UDim2.new(0, 500, 0, 50),
@@ -682,7 +701,7 @@ Tab9:AddToggle({
         if humanoid then
             if state then
                 if not speedSlider then
-                    speedSlider = Tab9:AddSlider({
+                    speedSlider = Tab12:AddSlider({
                         Name = "🏃┃SPEED",
                         Min = 1,
                         Max = 1000,
@@ -718,12 +737,12 @@ game:GetService("RunService").RenderStepped:Connect(function()
         end
     end
 end)
-local Toggle1 = Tab9:AddToggle({
+local Toggle1 = Tab12:AddToggle({
   Name = "MODIFY SPEED V2",
   Description = "SOMETIMES THE FIRST OPTION DOESN'T WORK",
   Default = false
 })
-Tab9:AddSlider({
+Tab12:AddSlider({
   Name = "🏃┃MODIFY SPEED",
   Min = 1,
   Max = 1000,
@@ -733,7 +752,7 @@ Tab9:AddSlider({
   game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
   end
 })
-Tab9:AddToggle({
+Tab12:AddToggle({
     Name = "CHANGE JUMP POWER",
     Description = "CHANGE JUMP POWER",
     Default = false,
@@ -745,7 +764,7 @@ Tab9:AddToggle({
         if humanoid then
             if state then
                 if not jumpSlider then
-                    jumpSlider = Tab9:AddSlider({
+                    jumpSlider = Tab12:AddSlider({
                         Name = "🦘┃JUMP POWER",
                         Min = 1,
                         Max = 1000,
@@ -771,7 +790,7 @@ Tab9:AddToggle({
         end
     end
 })
-Tab9:AddButton({
+Tab12:AddButton({
     Name = "FLY JUMP",
     Description = "JUMP IN THE AIR",
     Callback = function()
@@ -784,7 +803,7 @@ Tab9:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Fly-Jump/refs/heads/main/Script",true))()
     end
 })
-Tab9:AddToggle({
+Tab12:AddToggle({
     Name = "INFINITE JUMPS",
     Description = "ENABLE/DISABLE INFINITE JUMPS",
     Default = false,
@@ -808,7 +827,7 @@ Tab9:AddToggle({
         end
     end
 })
-Tab9:AddToggle({
+Tab12:AddToggle({
   Name = "LOOP FULL BRIGHT",
   Description = "ENABLE TO ALWAYS BE DAYTIME",
   Default = false,
@@ -825,7 +844,7 @@ Tab9:AddToggle({
     end
   end
 })
-local UnlimitedZoomToggle = Tab9:AddToggle({
+local UnlimitedZoomToggle = Tab12:AddToggle({
   Name = "NO LIMIT ZOOM",
   Description = "ZOOM THE CAMERA INFINITELY",
   Default = false,
@@ -840,7 +859,7 @@ local UnlimitedZoomToggle = Tab9:AddToggle({
     end
   end
 })
-local Tab10 = Window:MakeTab({"📝┃COPY SCRIPTS"})
+local Tab13 = Window:MakeTab({"📝┃COPY SCRIPTS"})
 local scripts = {
     ["REDZ HUB"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))()',
     ["DAT THG"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/DatThg/refs/heads/main/DatThgV2"))()',
@@ -887,9 +906,10 @@ local scripts = {
     ["CHAT BYPASS V2"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/twig76/ayra/refs/heads/main/ayras",true))()',
     ["CHAT BYPASS V3"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/Synergy-Networks/products/main/BetterBypasser/loader.lua",true))()',
     ["CHAT BYPASS V4"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Chat-Bypass/refs/heads/main/FH%20Bypass.txt", true))()',
+    ["SLAP BATTLES"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Slap%20Battles.lua"))()',
 }
 for title, script in pairs(scripts) do
-    Tab10:AddButton({
+    Tab13:AddButton({
         Name = title,
         Description = "COPY SCRIPT",
         Callback = function()
@@ -904,6 +924,5 @@ for title, script in pairs(scripts) do
         end
     })
 end
-
 
 
