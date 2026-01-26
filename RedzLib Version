@@ -922,6 +922,7 @@ local scripts = {
     ["CHAT BYPASS V3"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/Synergy-Networks/products/main/BetterBypasser/loader.lua",true))()',
     ["CHAT BYPASS V4"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Chat-Bypass/refs/heads/main/FH%20Bypass.txt", true))()',
     ["SLAP BATTLES"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Slap%20Battles.lua"))()',
+    ["TSUNAMI BRAINROT"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/TsunamiBrainrot.lua"))()',
 }
 for title, script in pairs(scripts) do
     Tab13:AddButton({
@@ -939,5 +940,6 @@ for title, script in pairs(scripts) do
         end
     })
 end
+
 
 
