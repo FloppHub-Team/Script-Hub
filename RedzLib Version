@@ -350,110 +350,7 @@ Tab6:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/DeadRails"))()
     end
 })
-local Tab7 = Window:MakeTab({"🌳┃99 NIGHTS IN THE FOREST"})
-Tab7:AddButton({
-    Name = "H4X HUB",
-    Description = "99 NIGHTS IN THE FOREST SCRIPT",
-    Callback = function()
-        Window:Notify({
-          Title = "H4X HUB EXECUTED!",
-          Content = "Enjoy the script",
-          Image = "rbxassetid://112586798808707",
-          Duration = 5
-        })
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua", true))()
-    end
-})
 
-local Tab8 = Window:MakeTab({"👤┃BE A NPC"})
-Tab8:AddButton({
-    Name = "BE A NPC",
-    Description = "BE A NPC SCRIPT",
-    Callback = function()
-        Window:Notify({
-          Title = "BE A NPC EXECUTED!",
-          Content = "Enjoy the script",
-          Image = "rbxassetid://112586798808707",
-          Duration = 5
-        })
-        loadstring(game:HttpGet("https://rawscripts.net/raw/FIRE-Be-NPC-or-DIE!-OP-Script-26413"))()
-    end
-})
-
-local Tab9 = Window:MakeTab({"👏┃SLAP BATTLES"})
-Tab9:AddButton({
-    Name = "SLAP BATTLES",
-    Description = "SLAP BATTLES SCRIPT",
-    Callback = function()
-        Window:Notify({
-          Title = "SLAP BATTLES EXECUTED!",
-          Content = "Enjoy the script",
-          Image = "rbxassetid://112586798808707",
-          Duration = 5
-        })
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Slap%20Battles.lua"))()
-    end
-})
-
-local TabTS = Window:MakeTab({"🌊┃TSUNAMI BRAINROT"})
-TabTS:AddButton({
-    Name = "TSUNAMI BRAINROT",
-    Description = "TSUNAMI BRAINROT SCRIPT",
-    Callback = function()
-        Window:Notify({
-          Title = "TSUNAMI BRAINROT EXECUTED!",
-          Content = "Enjoy the script",
-          Image = "rbxassetid://112586798808707",
-          Duration = 5
-        })
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/TsunamiBrainrot.lua"))()
-    end
-})
-
-local TabLB = Window:MakeTab({"🍀┃BREAK A LUCKY BLOCK"})
-TabLB:AddButton({
-    Name = "BREAK A LUCKY BLOCK",
-    Description = "LUCKY BRAINROT SCRIPT",
-    Callback = function()
-        Window:Notify({
-          Title = "LUCKY BRAINROT EXECUTED!",
-          Content = "Enjoy the script",
-          Image = "rbxassetid://112586798808707",
-          Duration = 5
-        })
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/LuckyBrainrot.lua"))()
-    end
-})
-
-local TabTOH = Window:MakeTab({"🗼┃TOWER OF HELL"})
-TabTOH:AddButton({
-    Name = "TOWER OF HELL",
-    Description = "TOWER OF HELL SCRIPT",
-    Callback = function()
-        Window:Notify({
-          Title = "TOWER OF HELL EXECUTED!",
-          Content = "Enjoy the script",
-          Image = "rbxassetid://112586798808707",
-          Duration = 5
-        })
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/TowerHell.lua"))()
-    end
-})
-
-local TabCT = Window:MakeTab({"🔫┃CRIMINAL TYCOON"})
-TabCT:AddButton({
-    Name = "CRIMINAL TYCOON",
-    Description = "CRIMINAL TYCOON SCRIPT",
-    Callback = function()
-        Window:Notify({
-          Title = "CRIMINAL TYCOON EXECUTED!",
-          Content = "Enjoy the script",
-          Image = "rbxassetid://112586798808707",
-          Duration = 5
-        })
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/CriminalTycoon.lua"))()
-    end
-})
 
 local Tab10 = Window:MakeTab({"🎮┃OTHER GAMES"})
 Tab10:AddButton({
@@ -480,6 +377,110 @@ Tab10:AddButton({
           Duration = 5
         })
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Donation%20Blox%20Script.txt"))()
+    end
+})
+Tab10:AddButton({
+    Name = "ARSENAL",
+    Description = "ARSENAL SCRIPT",
+    Callback = function()
+        Window:Notify({
+          Title = "ARSENAL EXECUTED!",
+          Content = "Enjoy the script",
+          Image = "rbxassetid://112586798808707",
+          Duration = 5
+        })
+        loadstring(game:HttpGet("https://antihambreadoscriptteam.github.io/Scripts/Arsenal.lua"))()
+    end
+})
+Tab10:AddButton({
+    Name = "CRIMINAL TYCOON",
+    Description = "CRIMINAL TYCOON SCRIPT",
+    Callback = function()
+        Window:Notify({
+          Title = "CRIMINAL TYCOON EXECUTED!",
+          Content = "Enjoy the script",
+          Image = "rbxassetid://112586798808707",
+          Duration = 5
+        })
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/CriminalTycoon.lua"))()
+    end
+})
+Tab10:AddButton({
+    Name = "TOWER OF HELL",
+    Description = "TOWER OF HELL SCRIPT",
+    Callback = function()
+        Window:Notify({
+          Title = "TOWER OF HELL EXECUTED!",
+          Content = "Enjoy the script",
+          Image = "rbxassetid://112586798808707",
+          Duration = 5
+        })
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/TowerHell.lua"))()
+    end
+})
+Tab10:AddButton({
+    Name = "BREAK A LUCKY BLOCK",
+    Description = "LUCKY BRAINROT SCRIPT",
+    Callback = function()
+        Window:Notify({
+          Title = "LUCKY BRAINROT EXECUTED!",
+          Content = "Enjoy the script",
+          Image = "rbxassetid://112586798808707",
+          Duration = 5
+        })
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/LuckyBrainrot.lua"))()
+    end
+})
+Tab10:AddButton({
+    Name = "TSUNAMI BRAINROT",
+    Description = "TSUNAMI BRAINROT SCRIPT",
+    Callback = function()
+        Window:Notify({
+          Title = "TSUNAMI BRAINROT EXECUTED!",
+          Content = "Enjoy the script",
+          Image = "rbxassetid://112586798808707",
+          Duration = 5
+        })
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/TsunamiBrainrot.lua"))()
+    end
+})
+Tab10:AddButton({
+    Name = "SLAP BATTLES",
+    Description = "SLAP BATTLES SCRIPT",
+    Callback = function()
+        Window:Notify({
+          Title = "SLAP BATTLES EXECUTED!",
+          Content = "Enjoy the script",
+          Image = "rbxassetid://112586798808707",
+          Duration = 5
+        })
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Slap%20Battles.lua"))()
+    end
+})
+Tab10:AddButton({
+    Name = "BE A NPC",
+    Description = "BE A NPC SCRIPT",
+    Callback = function()
+        Window:Notify({
+          Title = "BE A NPC EXECUTED!",
+          Content = "Enjoy the script",
+          Image = "rbxassetid://112586798808707",
+          Duration = 5
+        })
+        loadstring(game:HttpGet("https://rawscripts.net/raw/FIRE-Be-NPC-or-DIE!-OP-Script-26413"))()
+    end
+})
+Tab10:AddButton({
+    Name = "H4X HUB",
+    Description = "99 NIGHTS IN THE FOREST SCRIPT",
+    Callback = function()
+        Window:Notify({
+          Title = "H4X HUB EXECUTED!",
+          Content = "Enjoy the script",
+          Image = "rbxassetid://112586798808707",
+          Duration = 5
+        })
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua", true))()
     end
 })
 local Tab11 = Window:MakeTab({"🌐┃UNIVERSAL SCRIPTS"})
