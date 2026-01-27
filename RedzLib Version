@@ -972,6 +972,7 @@ local scripts = {
     ["BREAK A LUCKY BLOCK"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/LuckyBrainrot.lua"))()',
     ["TOWER OF HELL"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/TowerHell.lua"))()',
     ["CRIMINAL TYCOON"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/CriminalTycoon.lua"))()',
+    ["ARSENAL"] = 'loadstring(game:HttpGet("https://antihambreadoscriptteam.github.io/Scripts/Arsenal.lua"))()',
 }
 for title, script in pairs(scripts) do
     Tab13:AddButton({
