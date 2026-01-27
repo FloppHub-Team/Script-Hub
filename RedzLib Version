@@ -440,6 +440,21 @@ TabTOH:AddButton({
     end
 })
 
+local TabCT = Window:MakeTab({"🔫┃CRIMINAL TYCOON"})
+TabCT:AddButton({
+    Name = "CRIMINAL TYCOON",
+    Description = "CRIMINAL TYCOON SCRIPT",
+    Callback = function()
+        Window:Notify({
+          Title = "CRIMINAL TYCOON EXECUTED!",
+          Content = "Enjoy the script",
+          Image = "rbxassetid://112586798808707",
+          Duration = 5
+        })
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/CriminalTycoon.lua"))()
+    end
+})
+
 local Tab10 = Window:MakeTab({"🎮┃OTHER GAMES"})
 Tab10:AddButton({
     Name = "CHICKEN",
@@ -955,6 +970,7 @@ local scripts = {
     ["TSUNAMI BRAINROT"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/TsunamiBrainrot.lua"))()',
     ["BREAK A LUCKY BLOCK"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/LuckyBrainrot.lua"))()',
     ["TOWER OF HELL"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/TowerHell.lua"))()',
+    ["CRIMINAL TYCOON"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/CriminalTycoon.lua"))()',
 }
 for title, script in pairs(scripts) do
     Tab13:AddButton({
