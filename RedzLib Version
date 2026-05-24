@@ -313,6 +313,37 @@ Tab6:AddButton({
 })
 
 
+local Tab7 = Window:MakeTab({"🦁┃ZOO OR OOF"})
+Tab7:AddButton({
+    Name = "ZOO OR OOF",
+    Description = "ZOO OR OOF SCRIPT",
+    Callback = function()
+        Window:Notify({
+          Title = "ZOO OR OOF EXECUTED!",
+          Content = "Enjoy the script",
+          Image = "rbxassetid://112586798808707",
+          Duration = 5
+        })
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/ZOO-OR-OOF.lua"))()
+    end
+})
+
+local Tab8 = Window:MakeTab({"🛢️┃OIL EMPIRE"})
+Tab8:AddButton({
+    Name = "OIL EMPIRE",
+    Description = "OIL EMPIRE SCRIPT",
+    Callback = function()
+        Window:Notify({
+          Title = "OIL EMPIRE EXECUTED!",
+          Content = "Enjoy the script",
+          Image = "rbxassetid://112586798808707",
+          Duration = 5
+        })
+        loadstring(game:HttpGet("https://gist.githubusercontent.com/FloppHub-Team/cad56a139710d4fb28a98252711b9f1e/raw/28231f91f0f60ecc31008ab22bab1dd19f9f03b5/OilEmpire.lua"))()
+    end
+})
+
+
 local Tab10 = Window:MakeTab({"🎮┃OTHER GAMES"})
 Tab10:AddButton({
     Name = "CHICKEN",
@@ -442,32 +473,6 @@ Tab10:AddButton({
           Duration = 5
         })
         loadstring(game:HttpGet("https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua", true))()
-    end
-})
-Tab10:AddButton({
-    Name = "ZOO OR OOF",
-    Description = "ZOO OR OOF SCRIPT",
-    Callback = function()
-        Window:Notify({
-          Title = "ZOO OR OOF EXECUTED!",
-          Content = "Enjoy the script",
-          Image = "rbxassetid://112586798808707",
-          Duration = 5
-        })
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/ZOO-OR-OOF.lua"))()
-    end
-})
-Tab10:AddButton({
-    Name = "OIL EMPIRE",
-    Description = "OIL EMPIRE SCRIPT",
-    Callback = function()
-        Window:Notify({
-          Title = "OIL EMPIRE EXECUTED!",
-          Content = "Enjoy the script",
-          Image = "rbxassetid://112586798808707",
-          Duration = 5
-        })
-        loadstring(game:HttpGet("https://gist.githubusercontent.com/FloppHub-Team/cad56a139710d4fb28a98252711b9f1e/raw/28231f91f0f60ecc31008ab22bab1dd19f9f03b5/OilEmpire.lua"))()
     end
 })
 local Tab11 = Window:MakeTab({"🌐┃UNIVERSAL SCRIPTS"})
