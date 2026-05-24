@@ -344,8 +344,8 @@ Tab8:AddButton({
 })
 
 
-local Tab10 = Window:MakeTab({"🎮┃OTHER GAMES"})
-Tab10:AddButton({
+local TabChicken = Window:MakeTab({"🐔┃CHICKEN"})
+TabChicken:AddButton({
     Name = "CHICKEN",
     Description = "CHICKEN SCRIPT",
     Callback = function()
@@ -358,7 +358,9 @@ Tab10:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Chicken%20Script.txt"))()
     end
 })
-Tab10:AddButton({
+
+local TabDonation = Window:MakeTab({"💸┃DONATION BLOX"})
+TabDonation:AddButton({
     Name = "DONATION BLOX SCRIPT",
     Description = "DONATION BLOX SCRIPT",
     Callback = function()
@@ -371,7 +373,9 @@ Tab10:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Donation%20Blox%20Script.txt"))()
     end
 })
-Tab10:AddButton({
+
+local TabArsenal = Window:MakeTab({"🔫┃ARSENAL"})
+TabArsenal:AddButton({
     Name = "ARSENAL",
     Description = "ARSENAL SCRIPT",
     Callback = function()
@@ -384,7 +388,9 @@ Tab10:AddButton({
         loadstring(game:HttpGet("https://antihambreadoscriptteam.github.io/Scripts/Arsenal.lua"))()
     end
 })
-Tab10:AddButton({
+
+local TabCrimTycoon = Window:MakeTab({"💵┃CRIMINAL TYCOON"})
+TabCrimTycoon:AddButton({
     Name = "CRIMINAL TYCOON",
     Description = "CRIMINAL TYCOON SCRIPT",
     Callback = function()
@@ -397,7 +403,9 @@ Tab10:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/CriminalTycoon.lua"))()
     end
 })
-Tab10:AddButton({
+
+local TabTowerHell = Window:MakeTab({"🪜┃TOWER OF HELL"})
+TabTowerHell:AddButton({
     Name = "TOWER OF HELL",
     Description = "TOWER OF HELL SCRIPT",
     Callback = function()
@@ -410,7 +418,9 @@ Tab10:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/TowerHell.lua"))()
     end
 })
-Tab10:AddButton({
+
+local TabLuckyBlock = Window:MakeTab({"🍀┃LUCKY BLOCK"})
+TabLuckyBlock:AddButton({
     Name = "BREAK A LUCKY BLOCK",
     Description = "LUCKY BRAINROT SCRIPT",
     Callback = function()
@@ -423,7 +433,9 @@ Tab10:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/LuckyBrainrot.lua"))()
     end
 })
-Tab10:AddButton({
+
+local TabTsunami = Window:MakeTab({"🌊┃TSUNAMI BRAINROT"})
+TabTsunami:AddButton({
     Name = "TSUNAMI BRAINROT",
     Description = "TSUNAMI BRAINROT SCRIPT",
     Callback = function()
@@ -436,7 +448,9 @@ Tab10:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/TsunamiBrainrot.lua"))()
     end
 })
-Tab10:AddButton({
+
+local TabSlapBattles = Window:MakeTab({"👋┃SLAP BATTLES"})
+TabSlapBattles:AddButton({
     Name = "SLAP BATTLES",
     Description = "SLAP BATTLES SCRIPT",
     Callback = function()
@@ -449,7 +463,9 @@ Tab10:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Slap%20Battles.lua"))()
     end
 })
-Tab10:AddButton({
+
+local TabBeNPC = Window:MakeTab({"🤖┃BE A NPC"})
+TabBeNPC:AddButton({
     Name = "BE A NPC",
     Description = "BE A NPC SCRIPT",
     Callback = function()
@@ -462,7 +478,9 @@ Tab10:AddButton({
         loadstring(game:HttpGet("https://rawscripts.net/raw/FIRE-Be-NPC-or-DIE!-OP-Script-26413"))()
     end
 })
-Tab10:AddButton({
+
+local TabForest = Window:MakeTab({"🌲┃99 NIGHTS FOREST"})
+TabForest:AddButton({
     Name = "H4X HUB",
     Description = "99 NIGHTS IN THE FOREST SCRIPT",
     Callback = function()
