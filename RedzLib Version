@@ -404,7 +404,7 @@ TabCrimTycoon:AddButton({
     end
 })
 
-local TabTowerHell = Window:MakeTab({"🪜┃TOWER OF HELL"})
+local TabTowerHell = Window:MakeTab({"🧱┃TOWER OF HELL"})
 TabTowerHell:AddButton({
     Name = "TOWER OF HELL",
     Description = "TOWER OF HELL SCRIPT",
