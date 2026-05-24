@@ -36,19 +36,6 @@ Tab0:AddButton({
 })
 local Tab1 = Window:MakeTab({"🍇┃BLOX FRUITS"})
 Tab1:AddButton({
-    Name = "REDZ HUB",
-    Description = "BLOX FRUITS SCRIPT",
-    Callback = function()
-        Window:Notify({
-          Title = "REDZ HUB EXECUTED!",
-          Content = "Enjoy the script",
-          Image = "rbxassetid://112586798808707",
-          Duration = 5
-        })
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))()
-    end
-})
-Tab1:AddButton({
     Name = "DAT THG",
     Description = "BLOX FRUITS SCRIPT",
     Callback = function()
@@ -73,19 +60,6 @@ Tab1:AddButton({
         })
         getgenv().SlowLoadUi  = true
         loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/85e904ae1ff30824c1aa007fc7324f8f.lua"))()
-    end
-})
-Tab1:AddButton({
-    Name = "ASTRAL HUB",
-    Description = "BLOX FRUITS SCRIPT",
-    Callback = function()
-        Window:Notify({
-          Title = "ASTRAL HUB EXECUTED!",
-          Content = "Enjoy the script",
-          Image = "rbxassetid://112586798808707",
-          Duration = 5
-        })
-        loadstring(game:HttpGet('https://cdn.robloxscripts.gg/public/furky/furky-astral-source.lua'))()
     end
 })
 Tab1:AddButton({
@@ -253,19 +227,6 @@ Tab3:AddButton({
           Duration = 5
         })
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/NDS.lua"))()
-    end
-})
-Tab3:AddButton({
-    Name = "NDS HUB",
-    Description = "NATURAL DISASTER SCRIPT",
-    Callback = function()
-        Window:Notify({
-          Title = "NDS HUB EXECUTED!",
-          Content = "Enjoy the script",
-          Image = "rbxassetid://112586798808707",
-          Duration = 5
-        })
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/KaterHub-Inc/NaturalDisasterSurvival/refs/heads/main/main.lua"))()
     end
 })
 Tab3:AddButton({
@@ -483,6 +444,32 @@ Tab10:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua", true))()
     end
 })
+Tab10:AddButton({
+    Name = "ZOO OR OOF",
+    Description = "ZOO OR OOF SCRIPT",
+    Callback = function()
+        Window:Notify({
+          Title = "ZOO OR OOF EXECUTED!",
+          Content = "Enjoy the script",
+          Image = "rbxassetid://112586798808707",
+          Duration = 5
+        })
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/ZOO-OR-OOF.lua"))()
+    end
+})
+Tab10:AddButton({
+    Name = "OIL EMPIRE",
+    Description = "OIL EMPIRE SCRIPT",
+    Callback = function()
+        Window:Notify({
+          Title = "OIL EMPIRE EXECUTED!",
+          Content = "Enjoy the script",
+          Image = "rbxassetid://112586798808707",
+          Duration = 5
+        })
+        loadstring(game:HttpGet("https://gist.githubusercontent.com/FloppHub-Team/cad56a139710d4fb28a98252711b9f1e/raw/28231f91f0f60ecc31008ab22bab1dd19f9f03b5/OilEmpire.lua"))()
+    end
+})
 local Tab11 = Window:MakeTab({"🌐┃UNIVERSAL SCRIPTS"})
 Tab11:AddButton({
     Name = "KATER HUB",
@@ -533,7 +520,7 @@ Tab11:AddButton({
           Image = "rbxassetid://112586798808707",
           Duration = 5
         })
-        loadstring(game:HttpGet("https://rawscripts.net/raw/Infinite-Yield_500"))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
     end
 })
 Tab11:AddButton({
@@ -693,55 +680,29 @@ Tab11:AddButton({
     end
 })
 Tab11:AddButton({
-    Name = "CHAT BYPASS",
+    Name = "CLICK UNLOCK",
     Description = "UNIVERSAL SCRIPT",
     Callback = function()
         Window:Notify({
-          Title = "CHAT BYPASS EXECUTED!",
+          Title = "CLICK UNLOCK EXECUTED!",
           Content = "Enjoy the script",
           Image = "rbxassetid://112586798808707",
           Duration = 5
         })
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/AnnaRoblox/AnnaBypasser/refs/heads/main/AnnaBypasser.lua",true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/CLICK-UNLOCK.lua"))()
     end
 })
 Tab11:AddButton({
-    Name = "CHAT BYPASS V2",
+    Name = "INFINITE ROBUX NO FE",
     Description = "UNIVERSAL SCRIPT",
     Callback = function()
         Window:Notify({
-          Title = "CHAT BYPASS V2 EXECUTED!",
+          Title = "INFINITE ROBUX NO FE EXECUTED!",
           Content = "Enjoy the script",
           Image = "rbxassetid://112586798808707",
           Duration = 5
         })
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/twig76/ayra/refs/heads/main/ayras",true))()
-    end
-})
-Tab11:AddButton({
-    Name = "CHAT BYPASS V3",
-    Description = "UNIVERSAL SCRIPT",
-    Callback = function()
-        Window:Notify({
-          Title = "CHAT BYPASS V3 EXECUTED!",
-          Content = "Enjoy the script",
-          Image = "rbxassetid://112586798808707",
-          Duration = 5
-        })
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Synergy-Networks/products/main/BetterBypasser/loader.lua",true))()
-    end
-})
-Tab11:AddButton({
-    Name = "CHAT BYPASS V4",
-    Description = "UNIVERSAL SCRIPT",
-    Callback = function()
-        Window:Notify({
-          Title = "CHAT BYPASS V4 EXECUTED!",
-          Content = "Enjoy the script",
-          Image = "rbxassetid://112586798808707",
-          Duration = 5
-        })
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Chat-Bypass/refs/heads/main/FH%20Bypass.txt", true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/INFINITE-ROBUX-NO-FE.lua"))()
     end
 })
 local Tab12 = Window:MakeTab({"⚙️┃MISC"})
@@ -749,70 +710,54 @@ local jumpSlider = nil
 local loopConnection = nil
 local OriginalMaxZoomDistance = game.Players.LocalPlayer.CameraMaxZoomDistance
 local loopSpeed = false
-local speedSlider = nil
+local targetSpeed = 16
 Tab12:AddToggle({
     Name = "CHANGE SPEED",
     Default = false,
     Size = UDim2.new(0, 500, 0, 50),
     Callback = function(state)
         loopSpeed = state
-        local player = game.Players.LocalPlayer
-        local character = player.Character
-        local humanoid = character and character:FindFirstChildOfClass("Humanoid")
-        if humanoid then
-            if state then
-                if not speedSlider then
-                    speedSlider = Tab12:AddSlider({
-                        Name = "🏃┃SPEED",
-                        Min = 1,
-                        Max = 1000,
-                        Default = humanoid.WalkSpeed,
-                        Size = UDim2.new(0, 500, 0, 50),
-                        Callback = function(value)
-                            humanoid.WalkSpeed = value
-                        end,
-                        Smooth = true,
-                        Animation = {
-                            Enabled = true,
-                            Time = 0.5
-                        }
-                    })
-                end
-            else
-                humanoid.WalkSpeed = 30
-                if speedSlider then
-                    speedSlider:Destroy()
-                    speedSlider = nil
-                end
+        if not state then
+            local player = game.Players.LocalPlayer
+            local character = player.Character
+            local humanoid = character and character:FindFirstChildOfClass("Humanoid")
+            if humanoid then
+                humanoid.WalkSpeed = 16
             end
         end
     end
 })
-game:GetService("RunService").RenderStepped:Connect(function()
-    if loopSpeed and speedSlider then
+Tab12:AddSlider({
+    Name = "🏃┃SPEED",
+    Min = 1,
+    Max = 1000,
+    Default = 16,
+    Size = UDim2.new(0, 500, 0, 50),
+    Callback = function(value)
+        targetSpeed = value
         local player = game.Players.LocalPlayer
         local character = player.Character
         local humanoid = character and character:FindFirstChildOfClass("Humanoid")
         if humanoid then
-            humanoid.WalkSpeed = speedSlider:GetValue()
+            humanoid.WalkSpeed = value
+        end
+    end,
+    Smooth = true,
+    Animation = {
+        Enabled = true,
+        Time = 0.5
+    }
+})
+game:GetService("RunService").RenderStepped:Connect(function()
+    if loopSpeed then
+        local player = game.Players.LocalPlayer
+        local character = player.Character
+        local humanoid = character and character:FindFirstChildOfClass("Humanoid")
+        if humanoid then
+            humanoid.WalkSpeed = targetSpeed
         end
     end
 end)
-local Toggle1 = Tab12:AddToggle({
-  Name = "MODIFY SPEED V2",
-  Description = "SOMETIMES THE FIRST OPTION DOESN'T WORK",
-  Default = false
-})
-Tab12:AddSlider({
-  Name = "🏃┃MODIFY SPEED",
-  Min = 1,
-  Max = 1000,
-  Increase = 10,
-  Default = 30,
-  Callback = function(Value)
-  game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
-  end
-})
 Tab12:AddToggle({
     Name = "CHANGE JUMP POWER",
     Description = "CHANGE JUMP POWER",
@@ -922,10 +867,8 @@ local UnlimitedZoomToggle = Tab12:AddToggle({
 })
 local Tab13 = Window:MakeTab({"📝┃COPY SCRIPTS"})
 local scripts = {
-    ["REDZ HUB"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))()',
     ["DAT THG"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/DatThg/refs/heads/main/DatThgV2"))()',
     ["W-AZURE"] = 'getgenv().SlowLoadUi  = true loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/85e904ae1ff30824c1aa007fc7324f8f.lua"))()',
-    ["ASTRAL HUB"] = 'loadstring(game:HttpGet("https://cdn.robloxscripts.gg/public/furky/furky-astral-source.lua"))()',
     ["HOHO HUB"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()',
     ["XERO HUB"] = 'getgenv().Team = "Marines" getgenv().Hide_Menu = false getgenv().Auto_Execute = false loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()',
     ["HOP BOSS"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Teddy-Premium"))()',
@@ -938,7 +881,6 @@ local scripts = {
     ["BUILD A PLANE SCRIPT 1"] = 'loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5259b6f60dd55a3a58b8223f7c1510ac.lua"))()',
     ["NATURAL DISASTER"] = 'task.spawn(function() loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Shiftlock-22314"))() end) task.spawn(function() loadstring(game:HttpGet("https://rawscripts.net/raw/Ragdoll-Engine-BEST-SCRIPT-WORKING-SystemBroken-7544"))() loadstring(game:HttpGet("https://raw.githubusercontent.com/ySixxNz/Natural-Desastre/226d3d545efb7b36d14c0a21b23c3a2889ff3dc2/ES%20Language"))() end)',
     ["SIX HUB"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/ySixxNz/Natural-Desastre/226d3d545efb7b36d14c0a21b23c3a2889ff3dc2/ES%20Language"))()',
-    ["NDS HUB"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/KaterHub-Inc/NaturalDisasterSurvival/refs/heads/main/main.lua"))()',
     ["AURA NATURAL DISASTER"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/hellohellohell012321/KAWAII-AURA/main/kawaii_aura.lua", true))()',
     ["ZAP HUB"] = 'loadstring(game:HttpGet("https://zaphub.xyz/Exec"))()',
     ["AU0YX"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()',
@@ -950,7 +892,7 @@ local scripts = {
     ["KATER HUB"] = 'loadstring(game:HttpGet("https://katerhub-inc.github.io/KaterHub/main.lua"))()',
     ["RAGDOLL"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Ragdoll-Engine-BEST-SCRIPT-WORKING-SystemBroken-7544"))()',
     ["BLACKHOLE"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-op-blackhole-script-20078"))()',
-    ["INFINITE YIELD"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Infinite-Yield_500"))()',
+    ["INFINITE YIELD"] = "loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()",
     ["TELEKINESIS"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/hm5650/PCR/refs/heads/main/PartControllerRemote"))()',
     ["EXPAND HIT BOX"] = 'loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Update-script-hitbox-9326"))()',
     ["FLY"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Fly-GUI-V1/refs/heads/main/FlyGui%20FH%20Team"))()',
@@ -963,16 +905,16 @@ local scripts = {
     ["SHIFTLOCK"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Shiftlock%20FE"))()',
     ["SHIFTLOCK NO FIXABLE"] = 'loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Shiftlock-22314"))()',
     ["JUMP BUTTON"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Jump-Button/refs/heads/main/Script",true))()',
-    ["CHAT BYPASS"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/AnnaRoblox/AnnaBypasser/refs/heads/main/AnnaBypasser.lua",true))()',
-    ["CHAT BYPASS V2"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/twig76/ayra/refs/heads/main/ayras",true))()',
-    ["CHAT BYPASS V3"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/Synergy-Networks/products/main/BetterBypasser/loader.lua",true))()',
-    ["CHAT BYPASS V4"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Chat-Bypass/refs/heads/main/FH%20Bypass.txt", true))()',
     ["SLAP BATTLES"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/Slap%20Battles.lua"))()',
     ["TSUNAMI BRAINROT"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/TsunamiBrainrot.lua"))()',
     ["BREAK A LUCKY BLOCK"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/LuckyBrainrot.lua"))()',
     ["TOWER OF HELL"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/TowerHell.lua"))()',
     ["CRIMINAL TYCOON"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/Main/CriminalTycoon.lua"))()',
     ["ARSENAL"] = 'loadstring(game:HttpGet("https://antihambreadoscriptteam.github.io/Scripts/Arsenal.lua"))()',
+    ["ZOO OR OOF"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/ZOO-OR-OOF.lua"))()',
+    ["OIL EMPIRE"] = 'loadstring(game:HttpGet("https://gist.githubusercontent.com/FloppHub-Team/cad56a139710d4fb28a98252711b9f1e/raw/28231f91f0f60ecc31008ab22bab1dd19f9f03b5/OilEmpire.lua"))()',
+    ["CLICK UNLOCK"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/CLICK-UNLOCK.lua"))()',
+    ["INFINITE ROBUX NO FE"] = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/FloppHub-Team/Scripts-idk/refs/heads/main/INFINITE-ROBUX-NO-FE.lua"))()',
 }
 for title, script in pairs(scripts) do
     Tab13:AddButton({
@@ -990,5 +932,4 @@ for title, script in pairs(scripts) do
         end
     })
 end
-
 
